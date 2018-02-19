@@ -23,7 +23,7 @@ http://api.surfline.com/v1/forecasts
 *   **getAllSpots (boolean)** -  *true* will get all spot forecasts in the subregion (meaning an array of forecasts)
 *   **aggregate (boolean)** -  *true* enables aggregate fields for the Surf resource
 *   **units (string)** - possible values: \[e, m\] (e is feet and m is meters)
-*   **fullAnalysis (boolean)** - *true* adds field like `brief_outlook`, `best_bet`, `extended_outlook` and others to the larger Analysis JSON object
+*   **fullAnalysis (boolean)** - *true* adds fields like `brief_outlook`, `best_bet`, `extended_outlook` and others to the larger Analysis JSON object
 *   **showOptimal (boolean)** - not sure what this does yet
 *   **interpolate (boolean)** - not sure what this does yet
 
@@ -42,4 +42,4 @@ http://api.surfline.com/v1/forecasts/4991?resources=surf&days=1&getAllSpots=fals
 
 ## Notes
 
-Currently, I'm sending some data back in `json.Number` since some fields can be `""` (when Surfline means zero) or an `int`. This is infuriating but... just the way it is. Once I learn more about interfaces to cast these, I'll remove the `json` dependency so that all returned values are primitives.
+Currently, I'm decoding some data into `json.Number` since some fields can be `""` (when Surfline means zero) or an `int`. This is infuriating but... just the way it is. Once I learn more about interfaces to cast these, I'll remove the `json` dependency so that all returned values are primitives.
