@@ -9,11 +9,19 @@ import (
 
 // Forecast is the root JSON struct for forecast data.
 type Forecast struct {
-	Analysis `json:"Analysis"`
-	Tide     `json:"Tide"`
-	Surf     `json:"Surf"`
-	Weather  `json:"Weather"`
-	Wind     `json:"Wind"`
+	Analysis
+	Tide
+	Surf
+	Weather
+	Wind
+}
+
+type iForecast struct {
+	iAnalysis `json:"Analysis"`
+	Tide      `json:"Tide,omitempty"`
+	Surf      `json:"Surf,omitempty"`
+	Weather   `json:"Weather,omitempty"`
+	Wind      `json:"Wind,omitempty"`
 }
 
 // GetForecast grabs a Forecast from surfline with the provided Sub Region ID
@@ -54,4 +62,31 @@ func (c *Client) get(u *url.URL) (*http.Response, error) {
 	}
 
 	return resp, err
+}
+
+// UnmarshalJSON is a custom unmarshaller for Forecast.
+func (f *Forecast) UnmarshalJSON(data []byte) error {
+	var iF iForecast
+
+	err := json.Unmarshal(data, &iF)
+	if err != nil {
+		return err
+	}
+
+	*f = iF.forecast()
+
+	return nil
+}
+
+func (iF iForecast) forecast() Forecast {
+	iA := iF.iAnalysis
+	a := iA.analysis()
+
+	return Forecast{
+		a,
+		iF.Tide,
+		iF.Surf,
+		iF.Weather,
+		iF.Wind,
+	}
 }

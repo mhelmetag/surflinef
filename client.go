@@ -14,13 +14,13 @@ type Client struct {
 
 // DefaultClient returns a default configured SurflineF Client.
 func DefaultClient() (*Client, error) {
-	url, err := url.Parse("http://api.surfline.com/v1/forecasts")
+	u, err := url.Parse("http://api.surfline.com/v1/forecasts")
 	if err != nil {
 		return nil, err
 	}
 
 	httpClient := http.DefaultClient
-	client := Client{BaseURL: url, httpClient: httpClient}
+	client := Client{BaseURL: u, httpClient: httpClient}
 
 	return &client, err
 }

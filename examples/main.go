@@ -14,7 +14,7 @@ func main() {
 	}
 
 	q := surflinef.Query{
-		Resources:    []string{"analysis", "surf", "tide", "weather", "wind"},
+		Resources:    []string{"analysis"},
 		Days:         3,
 		Units:        "e",
 		FullAnalysis: true,
