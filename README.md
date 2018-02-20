@@ -39,7 +39,3 @@ http://api.surfline.com/v1/forecasts/2141?resources=surf,analysis&days=1&getAllS
 
 http://api.surfline.com/v1/forecasts/4991?resources=surf&days=1&getAllSpots=false&units=e&interpolate=true&showOptimal=false
 ```
-
-## Notes
-
-Currently, I'm decoding some data into `json.Number` since some fields can be `""` (when Surfline means zero) or an `int`. This is infuriating but... just the way it is. Once I learn more about interfaces to cast these, I'll remove the `json` dependency so that all returned values are primitives.
