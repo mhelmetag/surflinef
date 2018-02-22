@@ -4,7 +4,7 @@ An API client for fetching Forecasts from the Surfline API.
 
 ## Installation
 
-Simple run `go get github.com/mhelmetag/surflinef` and start using it in your own apps!
+Simply run `go get github.com/mhelmetag/surflinef` and start using it in your own apps!
 
 ## Usage
 
