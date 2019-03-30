@@ -3,7 +3,6 @@ package surflinef
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"net/url"
 )
 
@@ -46,22 +45,6 @@ func (c *Client) GetForecast(srID string, query string) (Forecast, error) {
 	}
 
 	return forecast, nil
-}
-
-func (c *Client) get(u *url.URL) (*http.Response, error) {
-	req, err := http.NewRequest("GET", u.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	req.Header.Set("Accept", "application/json")
-
-	resp, err := c.httpClient.Do(req)
-	if err != nil {
-		return nil, err
-	}
-
-	return resp, err
 }
 
 // UnmarshalJSON is a custom unmarshaller for Forecast.

@@ -24,3 +24,19 @@ func DefaultClient() (*Client, error) {
 
 	return &client, err
 }
+
+func (c *Client) get(u *url.URL) (*http.Response, error) {
+	req, err := http.NewRequest("GET", u.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Set("Accept", "application/json")
+
+	resp, err := c.httpClient.Do(req)
+	if err != nil {
+		return nil, err
+	}
+
+	return resp, err
+}
