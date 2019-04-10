@@ -1,8 +1,8 @@
 package surflinef
 
 import (
-  "net/url"
-  "testing"
+	"net/url"
+	"testing"
 )
 
 func TestDefaultClient(t *testing.T) {
