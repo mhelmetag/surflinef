@@ -1,0 +1,165 @@
+{
+    "associated": {
+        "units": {
+            "temperature": "F",
+            "tideHeight": "FT",
+            "waveHeight": "FT",
+            "windSpeed": "KTS"
+        },
+        "utcOffset": -8
+    },
+    "data": {
+        "conditions": [
+            {
+                "timestamp": 1580716800,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "Steep new NW swell peaks early. Steady NNE winds. ",
+                "am": {
+                    "maxHeight": 5,
+                    "minHeight": 3,
+                    "plus": false,
+                    "humanRelation": "3-5 ft – waist to head high",
+                    "occasionalHeight": null,
+                    "rating": "FAIR"
+                },
+                "pm": {
+                    "maxHeight": 4,
+                    "minHeight": 3,
+                    "plus": false,
+                    "humanRelation": "3-4 ft – waist to chest high",
+                    "occasionalHeight": null,
+                    "rating": "FAIR"
+                }
+            },
+            {
+                "timestamp": 1580803200,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "Steep NW swell fades. Lighter winds.",
+                "am": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": 4,
+                    "rating": "FAIR"
+                },
+                "pm": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "POOR_TO_FAIR"
+                }
+            },
+            {
+                "timestamp": 1580889600,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "Smaller NW swell leftovers. New WNW swell shows. Deep early AM high tide returns.",
+                "am": {
+                    "maxHeight": 2,
+                    "minHeight": 1,
+                    "plus": true,
+                    "humanRelation": "1-2 ft – ankle to knee high",
+                    "occasionalHeight": 3,
+                    "rating": "POOR_TO_FAIR"
+                },
+                "pm": {
+                    "maxHeight": 2,
+                    "minHeight": 1,
+                    "plus": true,
+                    "humanRelation": "1-2 ft – ankle to knee high",
+                    "occasionalHeight": 3,
+                    "rating": "POOR_TO_FAIR"
+                }
+            },
+            {
+                "timestamp": 1580976000,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "Modest scale WNW swell. Deep early AM high tide.",
+                "am": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "FAIR"
+                },
+                "pm": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "POOR_TO_FAIR"
+                }
+            },
+            {
+                "timestamp": 1581062400,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "Reinforcing WNW pulse buoys size. Deep early AM high tide.",
+                "am": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "FAIR"
+                },
+                "pm": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "POOR_TO_FAIR"
+                }
+            },
+            {
+                "timestamp": 1581148800,
+                "forecaster": {
+                    "name": "Matt Kibby",
+                    "avatar": "https://www.gravatar.com/avatar/b91972b222ed7d8c68ba88ea155c520a?d=mm"
+                },
+                "human": true,
+                "observation": "WNW swell continues. Deep mid-morning high tide.",
+                "am": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "FAIR"
+                },
+                "pm": {
+                    "maxHeight": 3,
+                    "minHeight": 2,
+                    "plus": true,
+                    "humanRelation": "2-3 ft + – waist to stomach high",
+                    "occasionalHeight": null,
+                    "rating": "POOR_TO_FAIR"
+                }
+            }
+        ]
+    }
+}

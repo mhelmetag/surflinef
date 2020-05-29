@@ -1,41 +1,83 @@
 # SurflineF
 
-An API client for fetching Forecasts from the Surfline API.
+[![Build Status](https://travis-ci.org/mhelmetag/surflinef.svg?branch=master)](https://travis-ci.org/mhelmetag/surflinef)
+
+An API client for fetching data from the Surfline API v2.
 
 ## Installation
 
-Simply run `go get github.com/mhelmetag/surflinef` and start using it in your own apps!
+Make sure to use versions 2.x.x or greater in your `go.mod` file.
 
 ## Usage
 
 The full example for fetching a Forecast (and other info) can be found in `examples/main.go` and can be run with `go run examples/main.go`.
 
-## Surfline API URL
+# Conditions
 
-```
-http://api.surfline.com/v1/forecasts
-```
+## Base URL
+
+`https://services.surfline.com/kbyg/regions/forecasts/conditions`
 
 ## Known Query Params
 
-*   **resources (string)** - possible values: \[surf, analysis, wind, weather, tide, sort\] (optional resources for forecast)
-*   **days (integer)** - greater than 1 (unsure of upper limit; confirmed to go above 10 but data usually becomes unknown/blank after that)
-*   **getAllSpots (boolean)** -  *true* will get all spot forecasts in the subregion (meaning an array of forecasts)
-*   **aggregate (boolean)** -  *true* enables aggregate fields for the Surf resource
-*   **units (string)** - possible values: \[e, m\] (e is feet and m is meters)
-*   **fullAnalysis (boolean)** - *true* adds fields like `brief_outlook`, `best_bet`, `extended_outlook` and others to the larger Analysis JSON object
-*   **showOptimal (boolean)** - not sure what this does yet
-*   **interpolate (boolean)** - not sure what this does yet
+- **subregionId (string)** - can get this from the taxonomy API
+- **days (integer)** - greater than 1 and less than 6 (unless logged in)
 
-## Example API Calls:
+## Example URL
 
-Found in the network tab when browsing around the Surfline site:
+`https://services.surfline.com/kbyg/regions/forecasts/conditions?subregionId=58581a836630e24c44878fd4&days=6`
+
+## Data Structure
+
+```json
+{
+  "timestamp": 1581148800,
+  "forecaster": {
+    "name": "Schaler Perry",
+    "avatar": "https://www.gravatar.com/avatar/ea1e9a0c570c61d61dec3cf6ea26a85e?d=mm"
+  },
+  "human": true,
+  "observation": "NW swell continues. Deep mid-morning high tide.",
+  "am": {
+    "maxHeight": 3,
+    "minHeight": 2,
+    "plus": false,
+    "humanRelation": "2-3 ft – knee to waist high",
+    "occasionalHeight": null,
+    "rating": "FAIR"
+  },
+  "pm": {
+    "maxHeight": 3,
+    "minHeight": 2,
+    "plus": false,
+    "humanRelation": "2-3 ft – knee to waist high",
+    "occasionalHeight": null,
+    "rating": "POOR_TO_FAIR"
+  }
+}
 ```
-http://api.surfline.com/v1/forecasts/2141?&callback=jQuery18001517130109550182_1474259459851&resources=resources%3Dwind%2Csurf%2Canalysis%2Cweather%2Ctide%2Csort&days=17&aggregate=true&units=e&_=1474259492858
 
-http://api.surfline.com/v1/forecasts/2141?resources=analysis&units=e&days=1&fullAnalysis=true
+# Tides
 
-http://api.surfline.com/v1/forecasts/2141?resources=surf,analysis&days=1&getAllSpots=true&units=e&interpolate=false&showOptimal=false
+## Base URL
 
-http://api.surfline.com/v1/forecasts/4991?resources=surf&days=1&getAllSpots=false&units=e&interpolate=true&showOptimal=false
+`https://services.surfline.com/kbyg/spots/forecasts/tides`
+
+## Known Query Params
+
+- **subregionId (string)** - can get this from the taxonomy API
+- **days (integer)** - greater than 1 and less than 6 (unless logged in)
+
+## Example URL
+
+`https://services.surfline.com/kbyg/spots/forecasts/tides?subregionId=58581a836630e24c44878fd4&days=6`
+
+## Data Structure
+
+```json
+{
+  "timestamp": 1581062400,
+  "type": "NORMAL",
+  "height": 2.33
+}
 ```

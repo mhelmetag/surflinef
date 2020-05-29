@@ -1,0 +1,858 @@
+{
+    "associated": {
+        "utcOffset": -8,
+        "units": {
+            "temperature": "F",
+            "tideHeight": "FT",
+            "waveHeight": "FT",
+            "windSpeed": "KTS"
+        },
+        "tideLocation": {
+            "name": "Rincon Island, California",
+            "min": -2.07,
+            "max": 7.25,
+            "lon": -119.4433,
+            "lat": 34.3483,
+            "mean": 2.76
+        }
+    },
+    "data": {
+        "tides": [
+            {
+                "timestamp": 1581062400,
+                "type": "NORMAL",
+                "height": 2.33
+            },
+            {
+                "timestamp": 1581066000,
+                "type": "NORMAL",
+                "height": 2.07
+            },
+            {
+                "timestamp": 1581066720,
+                "type": "LOW",
+                "height": 2.07
+            },
+            {
+                "timestamp": 1581069600,
+                "type": "NORMAL",
+                "height": 2.2
+            },
+            {
+                "timestamp": 1581073200,
+                "type": "NORMAL",
+                "height": 2.76
+            },
+            {
+                "timestamp": 1581076800,
+                "type": "NORMAL",
+                "height": 3.67
+            },
+            {
+                "timestamp": 1581080400,
+                "type": "NORMAL",
+                "height": 4.72
+            },
+            {
+                "timestamp": 1581084000,
+                "type": "NORMAL",
+                "height": 5.68
+            },
+            {
+                "timestamp": 1581087600,
+                "type": "NORMAL",
+                "height": 6.27
+            },
+            {
+                "timestamp": 1581089400,
+                "type": "HIGH",
+                "height": 6.33
+            },
+            {
+                "timestamp": 1581091200,
+                "type": "NORMAL",
+                "height": 6.27
+            },
+            {
+                "timestamp": 1581094800,
+                "type": "NORMAL",
+                "height": 5.61
+            },
+            {
+                "timestamp": 1581098400,
+                "type": "NORMAL",
+                "height": 4.4
+            },
+            {
+                "timestamp": 1581102000,
+                "type": "NORMAL",
+                "height": 2.79
+            },
+            {
+                "timestamp": 1581105600,
+                "type": "NORMAL",
+                "height": 1.12
+            },
+            {
+                "timestamp": 1581109200,
+                "type": "NORMAL",
+                "height": -0.3
+            },
+            {
+                "timestamp": 1581112800,
+                "type": "NORMAL",
+                "height": -1.18
+            },
+            {
+                "timestamp": 1581115740,
+                "type": "LOW",
+                "height": -1.44
+            },
+            {
+                "timestamp": 1581116400,
+                "type": "NORMAL",
+                "height": -1.41
+            },
+            {
+                "timestamp": 1581120000,
+                "type": "NORMAL",
+                "height": -0.98
+            },
+            {
+                "timestamp": 1581123600,
+                "type": "NORMAL",
+                "height": 0
+            },
+            {
+                "timestamp": 1581127200,
+                "type": "NORMAL",
+                "height": 1.25
+            },
+            {
+                "timestamp": 1581130800,
+                "type": "NORMAL",
+                "height": 2.46
+            },
+            {
+                "timestamp": 1581134400,
+                "type": "NORMAL",
+                "height": 3.35
+            },
+            {
+                "timestamp": 1581138000,
+                "type": "NORMAL",
+                "height": 3.81
+            },
+            {
+                "timestamp": 1581139200,
+                "type": "HIGH",
+                "height": 3.81
+            },
+            {
+                "timestamp": 1581141600,
+                "type": "NORMAL",
+                "height": 3.71
+            },
+            {
+                "timestamp": 1581145200,
+                "type": "NORMAL",
+                "height": 3.25
+            },
+            {
+                "timestamp": 1581148800,
+                "type": "NORMAL",
+                "height": 2.59
+            },
+            {
+                "timestamp": 1581152400,
+                "type": "NORMAL",
+                "height": 2.03
+            },
+            {
+                "timestamp": 1581156000,
+                "type": "LOW",
+                "height": 1.8
+            },
+            {
+                "timestamp": 1581159600,
+                "type": "NORMAL",
+                "height": 2.03
+            },
+            {
+                "timestamp": 1581163200,
+                "type": "NORMAL",
+                "height": 2.79
+            },
+            {
+                "timestamp": 1581166800,
+                "type": "NORMAL",
+                "height": 3.87
+            },
+            {
+                "timestamp": 1581170400,
+                "type": "NORMAL",
+                "height": 5.09
+            },
+            {
+                "timestamp": 1581174000,
+                "type": "NORMAL",
+                "height": 6.07
+            },
+            {
+                "timestamp": 1581177600,
+                "type": "NORMAL",
+                "height": 6.56
+            },
+            {
+                "timestamp": 1581178500,
+                "type": "HIGH",
+                "height": 6.59
+            },
+            {
+                "timestamp": 1581181200,
+                "type": "NORMAL",
+                "height": 6.4
+            },
+            {
+                "timestamp": 1581184800,
+                "type": "NORMAL",
+                "height": 5.51
+            },
+            {
+                "timestamp": 1581188400,
+                "type": "NORMAL",
+                "height": 4.07
+            },
+            {
+                "timestamp": 1581192000,
+                "type": "NORMAL",
+                "height": 2.3
+            },
+            {
+                "timestamp": 1581195600,
+                "type": "NORMAL",
+                "height": 0.56
+            },
+            {
+                "timestamp": 1581199200,
+                "type": "NORMAL",
+                "height": -0.82
+            },
+            {
+                "timestamp": 1581202800,
+                "type": "NORMAL",
+                "height": -1.54
+            },
+            {
+                "timestamp": 1581204480,
+                "type": "LOW",
+                "height": -1.61
+            },
+            {
+                "timestamp": 1581206400,
+                "type": "NORMAL",
+                "height": -1.51
+            },
+            {
+                "timestamp": 1581210000,
+                "type": "NORMAL",
+                "height": -0.79
+            },
+            {
+                "timestamp": 1581213600,
+                "type": "NORMAL",
+                "height": 0.39
+            },
+            {
+                "timestamp": 1581217200,
+                "type": "NORMAL",
+                "height": 1.77
+            },
+            {
+                "timestamp": 1581220800,
+                "type": "NORMAL",
+                "height": 2.99
+            },
+            {
+                "timestamp": 1581224400,
+                "type": "NORMAL",
+                "height": 3.81
+            },
+            {
+                "timestamp": 1581227700,
+                "type": "HIGH",
+                "height": 4.04
+            },
+            {
+                "timestamp": 1581228000,
+                "type": "NORMAL",
+                "height": 4.04
+            },
+            {
+                "timestamp": 1581231600,
+                "type": "NORMAL",
+                "height": 3.74
+            },
+            {
+                "timestamp": 1581235200,
+                "type": "NORMAL",
+                "height": 3.08
+            },
+            {
+                "timestamp": 1581238800,
+                "type": "NORMAL",
+                "height": 2.3
+            },
+            {
+                "timestamp": 1581242400,
+                "type": "NORMAL",
+                "height": 1.71
+            },
+            {
+                "timestamp": 1581245280,
+                "type": "LOW",
+                "height": 1.54
+            },
+            {
+                "timestamp": 1581246000,
+                "type": "NORMAL",
+                "height": 1.54
+            },
+            {
+                "timestamp": 1581249600,
+                "type": "NORMAL",
+                "height": 1.94
+            },
+            {
+                "timestamp": 1581253200,
+                "type": "NORMAL",
+                "height": 2.85
+            },
+            {
+                "timestamp": 1581256800,
+                "type": "NORMAL",
+                "height": 4.07
+            },
+            {
+                "timestamp": 1581260400,
+                "type": "NORMAL",
+                "height": 5.31
+            },
+            {
+                "timestamp": 1581264000,
+                "type": "NORMAL",
+                "height": 6.27
+            },
+            {
+                "timestamp": 1581267600,
+                "type": "NORMAL",
+                "height": 6.63
+            },
+            {
+                "timestamp": 1581267660,
+                "type": "HIGH",
+                "height": 6.63
+            },
+            {
+                "timestamp": 1581271200,
+                "type": "NORMAL",
+                "height": 6.27
+            },
+            {
+                "timestamp": 1581274800,
+                "type": "NORMAL",
+                "height": 5.18
+            },
+            {
+                "timestamp": 1581278400,
+                "type": "NORMAL",
+                "height": 3.58
+            },
+            {
+                "timestamp": 1581282000,
+                "type": "NORMAL",
+                "height": 1.77
+            },
+            {
+                "timestamp": 1581285600,
+                "type": "NORMAL",
+                "height": 0.1
+            },
+            {
+                "timestamp": 1581289200,
+                "type": "NORMAL",
+                "height": -1.12
+            },
+            {
+                "timestamp": 1581292800,
+                "type": "NORMAL",
+                "height": -1.57
+            },
+            {
+                "timestamp": 1581293160,
+                "type": "LOW",
+                "height": -1.57
+            },
+            {
+                "timestamp": 1581296400,
+                "type": "NORMAL",
+                "height": -1.31
+            },
+            {
+                "timestamp": 1581300000,
+                "type": "NORMAL",
+                "height": -0.36
+            },
+            {
+                "timestamp": 1581303600,
+                "type": "NORMAL",
+                "height": 0.98
+            },
+            {
+                "timestamp": 1581307200,
+                "type": "NORMAL",
+                "height": 2.39
+            },
+            {
+                "timestamp": 1581310800,
+                "type": "NORMAL",
+                "height": 3.54
+            },
+            {
+                "timestamp": 1581314400,
+                "type": "NORMAL",
+                "height": 4.17
+            },
+            {
+                "timestamp": 1581316320,
+                "type": "HIGH",
+                "height": 4.27
+            },
+            {
+                "timestamp": 1581318000,
+                "type": "NORMAL",
+                "height": 4.2
+            },
+            {
+                "timestamp": 1581321600,
+                "type": "NORMAL",
+                "height": 3.67
+            },
+            {
+                "timestamp": 1581325200,
+                "type": "NORMAL",
+                "height": 2.85
+            },
+            {
+                "timestamp": 1581328800,
+                "type": "NORMAL",
+                "height": 2
+            },
+            {
+                "timestamp": 1581332400,
+                "type": "NORMAL",
+                "height": 1.44
+            },
+            {
+                "timestamp": 1581334680,
+                "type": "LOW",
+                "height": 1.35
+            },
+            {
+                "timestamp": 1581336000,
+                "type": "NORMAL",
+                "height": 1.38
+            },
+            {
+                "timestamp": 1581339600,
+                "type": "NORMAL",
+                "height": 1.87
+            },
+            {
+                "timestamp": 1581343200,
+                "type": "NORMAL",
+                "height": 2.85
+            },
+            {
+                "timestamp": 1581346800,
+                "type": "NORMAL",
+                "height": 4.13
+            },
+            {
+                "timestamp": 1581350400,
+                "type": "NORMAL",
+                "height": 5.35
+            },
+            {
+                "timestamp": 1581354000,
+                "type": "NORMAL",
+                "height": 6.17
+            },
+            {
+                "timestamp": 1581356880,
+                "type": "HIGH",
+                "height": 6.4
+            },
+            {
+                "timestamp": 1581357600,
+                "type": "NORMAL",
+                "height": 6.4
+            },
+            {
+                "timestamp": 1581361200,
+                "type": "NORMAL",
+                "height": 5.87
+            },
+            {
+                "timestamp": 1581364800,
+                "type": "NORMAL",
+                "height": 4.69
+            },
+            {
+                "timestamp": 1581368400,
+                "type": "NORMAL",
+                "height": 3.05
+            },
+            {
+                "timestamp": 1581372000,
+                "type": "NORMAL",
+                "height": 1.31
+            },
+            {
+                "timestamp": 1581375600,
+                "type": "NORMAL",
+                "height": -0.16
+            },
+            {
+                "timestamp": 1581379200,
+                "type": "NORMAL",
+                "height": -1.12
+            },
+            {
+                "timestamp": 1581381960,
+                "type": "LOW",
+                "height": -1.35
+            },
+            {
+                "timestamp": 1581382800,
+                "type": "NORMAL",
+                "height": -1.31
+            },
+            {
+                "timestamp": 1581386400,
+                "type": "NORMAL",
+                "height": -0.79
+            },
+            {
+                "timestamp": 1581390000,
+                "type": "NORMAL",
+                "height": 0.33
+            },
+            {
+                "timestamp": 1581393600,
+                "type": "NORMAL",
+                "height": 1.71
+            },
+            {
+                "timestamp": 1581397200,
+                "type": "NORMAL",
+                "height": 3.05
+            },
+            {
+                "timestamp": 1581400800,
+                "type": "NORMAL",
+                "height": 4.04
+            },
+            {
+                "timestamp": 1581404400,
+                "type": "NORMAL",
+                "height": 4.46
+            },
+            {
+                "timestamp": 1581405060,
+                "type": "HIGH",
+                "height": 4.46
+            },
+            {
+                "timestamp": 1581408000,
+                "type": "NORMAL",
+                "height": 4.27
+            },
+            {
+                "timestamp": 1581411600,
+                "type": "NORMAL",
+                "height": 3.58
+            },
+            {
+                "timestamp": 1581415200,
+                "type": "NORMAL",
+                "height": 2.66
+            },
+            {
+                "timestamp": 1581418800,
+                "type": "NORMAL",
+                "height": 1.8
+            },
+            {
+                "timestamp": 1581422400,
+                "type": "NORMAL",
+                "height": 1.28
+            },
+            {
+                "timestamp": 1581424260,
+                "type": "LOW",
+                "height": 1.18
+            },
+            {
+                "timestamp": 1581426000,
+                "type": "NORMAL",
+                "height": 1.25
+            },
+            {
+                "timestamp": 1581429600,
+                "type": "NORMAL",
+                "height": 1.8
+            },
+            {
+                "timestamp": 1581433200,
+                "type": "NORMAL",
+                "height": 2.79
+            },
+            {
+                "timestamp": 1581436800,
+                "type": "NORMAL",
+                "height": 4
+            },
+            {
+                "timestamp": 1581440400,
+                "type": "NORMAL",
+                "height": 5.09
+            },
+            {
+                "timestamp": 1581444000,
+                "type": "NORMAL",
+                "height": 5.77
+            },
+            {
+                "timestamp": 1581446160,
+                "type": "HIGH",
+                "height": 5.91
+            },
+            {
+                "timestamp": 1581447600,
+                "type": "NORMAL",
+                "height": 5.84
+            },
+            {
+                "timestamp": 1581451200,
+                "type": "NORMAL",
+                "height": 5.25
+            },
+            {
+                "timestamp": 1581454800,
+                "type": "NORMAL",
+                "height": 4.07
+            },
+            {
+                "timestamp": 1581458400,
+                "type": "NORMAL",
+                "height": 2.56
+            },
+            {
+                "timestamp": 1581462000,
+                "type": "NORMAL",
+                "height": 1.05
+            },
+            {
+                "timestamp": 1581465600,
+                "type": "NORMAL",
+                "height": -0.16
+            },
+            {
+                "timestamp": 1581469200,
+                "type": "NORMAL",
+                "height": -0.79
+            },
+            {
+                "timestamp": 1581470700,
+                "type": "LOW",
+                "height": -0.85
+            },
+            {
+                "timestamp": 1581472800,
+                "type": "NORMAL",
+                "height": -0.75
+            },
+            {
+                "timestamp": 1581476400,
+                "type": "NORMAL",
+                "height": -0.03
+            },
+            {
+                "timestamp": 1581480000,
+                "type": "NORMAL",
+                "height": 1.12
+            },
+            {
+                "timestamp": 1581483600,
+                "type": "NORMAL",
+                "height": 2.46
+            },
+            {
+                "timestamp": 1581487200,
+                "type": "NORMAL",
+                "height": 3.64
+            },
+            {
+                "timestamp": 1581490800,
+                "type": "NORMAL",
+                "height": 4.43
+            },
+            {
+                "timestamp": 1581493920,
+                "type": "HIGH",
+                "height": 4.63
+            },
+            {
+                "timestamp": 1581494400,
+                "type": "NORMAL",
+                "height": 4.63
+            },
+            {
+                "timestamp": 1581498000,
+                "type": "NORMAL",
+                "height": 4.3
+            },
+            {
+                "timestamp": 1581501600,
+                "type": "NORMAL",
+                "height": 3.51
+            },
+            {
+                "timestamp": 1581505200,
+                "type": "NORMAL",
+                "height": 2.56
+            },
+            {
+                "timestamp": 1581508800,
+                "type": "NORMAL",
+                "height": 1.71
+            },
+            {
+                "timestamp": 1581512400,
+                "type": "NORMAL",
+                "height": 1.21
+            },
+            {
+                "timestamp": 1581514260,
+                "type": "LOW",
+                "height": 1.12
+            },
+            {
+                "timestamp": 1581516000,
+                "type": "NORMAL",
+                "height": 1.18
+            },
+            {
+                "timestamp": 1581519600,
+                "type": "NORMAL",
+                "height": 1.71
+            },
+            {
+                "timestamp": 1581523200,
+                "type": "NORMAL",
+                "height": 2.59
+            },
+            {
+                "timestamp": 1581526800,
+                "type": "NORMAL",
+                "height": 3.64
+            },
+            {
+                "timestamp": 1581530400,
+                "type": "NORMAL",
+                "height": 4.56
+            },
+            {
+                "timestamp": 1581534000,
+                "type": "NORMAL",
+                "height": 5.09
+            },
+            {
+                "timestamp": 1581535800,
+                "type": "HIGH",
+                "height": 5.15
+            },
+            {
+                "timestamp": 1581537600,
+                "type": "NORMAL",
+                "height": 5.09
+            },
+            {
+                "timestamp": 1581541200,
+                "type": "NORMAL",
+                "height": 4.53
+            },
+            {
+                "timestamp": 1581544800,
+                "type": "NORMAL",
+                "height": 3.48
+            },
+            {
+                "timestamp": 1581548400,
+                "type": "NORMAL",
+                "height": 2.23
+            },
+            {
+                "timestamp": 1581552000,
+                "type": "NORMAL",
+                "height": 1.02
+            },
+            {
+                "timestamp": 1581555600,
+                "type": "NORMAL",
+                "height": 0.13
+            },
+            {
+                "timestamp": 1581559200,
+                "type": "NORMAL",
+                "height": -0.23
+            },
+            {
+                "timestamp": 1581559560,
+                "type": "LOW",
+                "height": -0.23
+            },
+            {
+                "timestamp": 1581562800,
+                "type": "NORMAL",
+                "height": 0.03
+            },
+            {
+                "timestamp": 1581566400,
+                "type": "NORMAL",
+                "height": 0.79
+            },
+            {
+                "timestamp": 1581570000,
+                "type": "NORMAL",
+                "height": 1.9
+            },
+            {
+                "timestamp": 1581573600,
+                "type": "NORMAL",
+                "height": 3.12
+            },
+            {
+                "timestamp": 1581577200,
+                "type": "NORMAL",
+                "height": 4.1
+            },
+            {
+                "timestamp": 1581580800,
+                "type": "NORMAL",
+                "height": 4.69
+            }
+        ]
+    }
+}
