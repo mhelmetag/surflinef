@@ -12,22 +12,22 @@ Make sure to use versions 2.x.x or greater in your `go.mod` file.
 
 The full example for fetching a Forecast (and other info) can be found in `examples/main.go` and can be run with `go run examples/main.go`.
 
-# Conditions
+## Conditions
 
-## Base URL
+### Conditions - Base URL
 
 `https://services.surfline.com/kbyg/regions/forecasts/conditions`
 
-## Known Query Params
+### Conditions - Known Query Params
 
 - **subregionId (string)** - can get this from the taxonomy API
 - **days (integer)** - greater than 1 and less than 6 (unless logged in)
 
-## Example URL
+### Conditions - Example URL
 
 `https://services.surfline.com/kbyg/regions/forecasts/conditions?subregionId=58581a836630e24c44878fd4&days=6`
 
-## Data Structure
+### Conditions - Data Structure
 
 ```json
 {
@@ -57,22 +57,22 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 }
 ```
 
-# Tides
+## Tides
 
-## Base URL
+### Tides - Base URL
 
 `https://services.surfline.com/kbyg/spots/forecasts/tides`
 
-## Known Query Params
+### Tides - Known Query Params
 
 - **subregionId (string)** - can get this from the taxonomy API
 - **days (integer)** - greater than 1 and less than 6 (unless logged in)
 
-## Example URL
+### Tides - Example URL
 
 `https://services.surfline.com/kbyg/spots/forecasts/tides?subregionId=58581a836630e24c44878fd4&days=6`
 
-## Data Structure
+### Tides - Data Structure
 
 ```json
 {
