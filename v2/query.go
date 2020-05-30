@@ -8,6 +8,7 @@ import (
 // False, nil or empty values are ignored.
 type Query struct {
 	SubregionID string `url:"subregionId,omitempty"`
+	SpotID      string `url:"spotId,omitempty"`
 	Days        int    `url:"days,omitempty"`
 }
 

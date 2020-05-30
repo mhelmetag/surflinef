@@ -65,12 +65,12 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 ### Tides - Known Query Params
 
-- **subregionId (string)** - can get this from the taxonomy API
+- **spotId (string)** - can get this from the taxonomy API
 - **days (integer)** - greater than 1 and less than 6 (unless logged in)
 
 ### Tides - Example URL
 
-`https://services.surfline.com/kbyg/spots/forecasts/tides?subregionId=58581a836630e24c44878fd4&days=6`
+`https://services.surfline.com/kbyg/spots/forecasts/tides?spotId=5842041f4e65fad6a7708814&days=6`
 
 ### Tides - Data Structure
 
