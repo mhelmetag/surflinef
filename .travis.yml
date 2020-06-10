@@ -1,9 +1,7 @@
-matrix:
-  include:
-    - go: 1.8
-      env: GO_VERSION=1.8
-    - go: 1.14
-      env: GO_VERSION=1.14
+language: go
+
+go:
+  - 1.14
 
 script:
-  - if [ "$GO_VERSION" = "1.8" ]; then go test; else cd v2 && go test; fi
+  - cd v2 && go test
