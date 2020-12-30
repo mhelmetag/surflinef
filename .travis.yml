@@ -3,7 +3,7 @@ jobs:
     - stage: test v1
       language: go
       go:
-        - "1.9"
+        - 1.9
     - stage: test v2
       before_script: cd v2
       language: go
