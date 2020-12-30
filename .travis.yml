@@ -1,4 +1,13 @@
-language: go
-
-go:
-  - master
+jobs:
+  include:
+    - stage: test v1
+      language: go
+      go:
+        - 1.11
+      script: go test
+    - stage: test v2
+      language: go
+      go:
+        - 1.15
+      before_script: cd v2
+      script: go test
