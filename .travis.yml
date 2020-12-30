@@ -1,11 +1,13 @@
 jobs:
   include:
     - stage: test v1
-      language: go
       go:
         - "1.9"
+      script: go test
     - stage: test v2
-      language: go
         go:
           - "1.15"
           - master
+        before_script: cd v2
+        script: go test
+
