@@ -10,6 +10,8 @@ Check out the `v2` folder for the API client for the Surfline API v2.
 
 Simply run `go get github.com/mhelmetag/surflinef` and start using it in your own apps!
 
+**Note:** I believe any go version over 1.11 will get upset with how I do my weird JSON unmarshalling (because of Surfline's weird API data types). I would recommend using v2 anyways...
+
 ## Usage
 
 The full example for fetching a Forecast (and other info) can be found in `examples/main.go` and can be run with `go run examples/main.go`.
