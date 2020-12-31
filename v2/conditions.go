@@ -32,10 +32,10 @@ type Forecaster struct {
 
 // Report is the JSON struct of a report (for the AM or PM).
 type Report struct {
-	MaxHeight     float64    `json:"maxHeight"`
-	MinHeight     float64    `json:"minHeight"`
-	HumanRelation string `json:"humanRelation"`
-	Rating        string `json:"rating"`
+	MaxHeight     float64 `json:"maxHeight"`
+	MinHeight     float64 `json:"minHeight"`
+	HumanRelation string  `json:"humanRelation"`
+	Rating        string  `json:"rating"`
 }
 
 // GetConditions fetches a ConditionsResponse from the API.
