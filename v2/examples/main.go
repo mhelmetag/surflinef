@@ -13,7 +13,7 @@ func main() {
 }
 
 func getConditions() {
-	bu, err := url.Parse("https://services.surfline.com/kbyg/regions/forecasts/conditions")
+	bu, err := url.Parse(surflinef.ConditionsBaseURL)
 	if err != nil {
 		fmt.Printf("Error parsing URL: %v\n", err)
 		return
@@ -42,7 +42,7 @@ func getConditions() {
 }
 
 func getTides() {
-	bu, err := url.Parse("https://services.surfline.com/kbyg/spots/forecasts/tides")
+	bu, err := url.Parse(surflinef.TidesBaseURL)
 	if err != nil {
 		fmt.Printf("Error parsing URL: %v\n", err)
 		return
