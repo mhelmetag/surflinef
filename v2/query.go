@@ -9,7 +9,7 @@ import (
 type Query struct {
 	SubregionID string `url:"subregionId,omitempty"`
 	SpotID      string `url:"spotId,omitempty"`
-	Days        int    `url:"days,omitempty"`
+	Days        int    `url:"days"`
 }
 
 // QueryString builds a query string from a Query.

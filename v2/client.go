@@ -6,6 +6,15 @@ import (
 	"net/url"
 )
 
+// ConditionsBaseURL is the base URL for the regional conditions service
+const ConditionsBaseURL = "https://services.surfline.com/kbyg/regions/forecasts/conditions"
+
+// TidesBaseURL is the base URL for the spot tides service
+const TidesBaseURL = "https://services.surfline.com/kbyg/spots/forecasts/tides"
+
+// TaxonomyBaseURL is the base URL for the taxonomy service
+const TaxonomyBaseURL = "https://services.surfline.com/taxonomy"
+
 // Client is the SurflineF HTTP Client.
 type Client struct {
 	BaseURL *url.URL

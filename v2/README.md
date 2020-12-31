@@ -20,8 +20,8 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 ### Conditions - Known Query Params
 
-- **subregionId (string)** - can get this from the taxonomy API
-- **days (integer)** - greater than 1 and less than 6 (unless logged in)
+- **subregionId (string)** - Can get this from the taxonomy API
+- **days (integer)** - Greater than 1 and less than 6 (unless logged in)
 
 ### Conditions - Example URL
 
@@ -65,8 +65,8 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 ### Tides - Known Query Params
 
-- **spotId (string)** - can get this from the taxonomy API
-- **days (integer)** - greater than 1 and less than 6 (unless logged in)
+- **spotId (string)** - Can get this from the taxonomy API
+- **days (integer)** - Greater than 1 and less than 6 (unless logged in)
 
 ### Tides - Example URL
 
@@ -79,5 +79,43 @@ The full example for fetching a Forecast (and other info) can be found in `examp
   "timestamp": 1581062400,
   "type": "NORMAL",
   "height": 2.33
+}
+```
+
+## Taxonomy
+
+### Taxonomy - Base URL
+
+`https://services.surfline.com/taxonomy`
+
+### Taxonomy - Known Query Params
+
+- **type (string)** - Can be a few things... taxonomy is one but not sure about others
+- **id (string)** - ID of the taxonomy record (continent, country, region or area)
+- **maxDepth (integer)** - Depth of the taxonomy search. Use 0 for searches for continents, country, regions and areas. Use 1 for area to find contained spots.
+
+### Taxonomy - Example URL
+
+`https://services.surfline.com/taxonomy?type=taxonomy&id=58f7ed51dadb30820bb38791&maxDepth=0`
+
+### Taxonomy - Data Structure
+
+Taxonomy is a recursive data structure. Basically, a taxonomy record `contains` a list of other taxonomy records that lie within in (`liesIn`).
+
+```json
+{
+  "_id": "58f7ed51dadb30820bb38791",
+  "geonameId": 6255149,
+  "type": "geoname",
+  "liesIn": [],
+  "geonames": {},
+  "location": {},
+  "enumeratedPath": ",Earth,North America",
+  "name": "North America",
+  "category": "geonames",
+  "hasSpots": true,
+  "associated": {},
+  "in": [],
+  "contains": []
 }
 ```

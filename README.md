@@ -22,14 +22,14 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 ## Known Query Params
 
-- **resources (string)** - possible values: \[surf, analysis, wind, weather, tide, sort\] (optional resources for forecast)
-- **days (integer)** - greater than 1 (unsure of upper limit; confirmed to go above 10 but data usually becomes unknown/blank after that)
+- **resources (string)** - Possible values: \[surf, analysis, wind, weather, tide, sort\] (optional resources for forecast)
+- **days (integer)** - Greater than 1 (unsure of upper limit; confirmed to go above 10 but data usually becomes unknown/blank after that)
 - **getAllSpots (boolean)** - _true_ will get all spot forecasts in the subregion (meaning an array of forecasts)
 - **aggregate (boolean)** - _true_ enables aggregate fields for the Surf resource
-- **units (string)** - possible values: \[e, m\] (e is feet and m is meters)
+- **units (string)** - Possible values: \[e, m\] (e is feet and m is meters)
 - **fullAnalysis (boolean)** - _true_ adds fields like `brief_outlook`, `best_bet`, `extended_outlook` and others to the larger Analysis JSON object
-- **showOptimal (boolean)** - not sure what this does yet
-- **interpolate (boolean)** - not sure what this does yet
+- **showOptimal (boolean)** - Not sure what this does yet
+- **interpolate (boolean)** - Not sure what this does yet
 
 ## Example API Calls
 

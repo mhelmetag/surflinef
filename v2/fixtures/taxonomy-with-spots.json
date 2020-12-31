@@ -1,0 +1,875 @@
+{
+    "_id": "58f7ed58dadb30820bb38f8b",
+    "geonameId": 5405889,
+    "type": "geoname",
+    "liesIn": [
+        "58f7ed51dadb30820bb387a6"
+    ],
+    "geonames": {
+        "fcode": "ADM2",
+        "lat": "34.35753",
+        "adminName1": "California",
+        "fcodeName": "second-order administrative division",
+        "countryName": "United States",
+        "fclName": "country, state, region,...",
+        "name": "Ventura County",
+        "countryCode": "US",
+        "population": 823318,
+        "fcl": "A",
+        "countryId": "6252001",
+        "toponymName": "Ventura County",
+        "geonameId": 5405889,
+        "lng": "-119.12603",
+        "adminCode1": "CA"
+    },
+    "location": {
+        "coordinates": [
+            -119.12603,
+            34.35753
+        ],
+        "type": "Point"
+    },
+    "enumeratedPath": ",Earth,North America,United States,California,Ventura County",
+    "name": "Ventura County",
+    "category": "geonames",
+    "hasSpots": true,
+    "associated": {
+        "links": [
+            {
+                "key": "taxonomy",
+                "href": "http://spots-api.prod.surfline.com/taxonomy?id=5405889&type=geoname"
+            },
+            {
+                "key": "www",
+                "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/ventura-county/5405889"
+            },
+            {
+                "key": "travel",
+                "href": "https://www.surfline.com/travel/united-states/california/ventura-county-surfing-and-beaches/5405889"
+            }
+        ]
+    },
+    "in": [
+        {
+            "_id": "58f7ed51dadb30820bb38782",
+            "geonameId": 6295630,
+            "type": "geoname",
+            "geonames": {
+                "population": 6814400000,
+                "fcode": "AREA",
+                "fcl": "L",
+                "lat": "0",
+                "adminName1": "",
+                "fcodeName": "area",
+                "toponymName": "Earth",
+                "fclName": "parks,area, ...",
+                "name": "Earth",
+                "geonameId": 6295630,
+                "lng": "0"
+            },
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth",
+            "name": "Earth",
+            "category": "geonames",
+            "hasSpots": true,
+            "liesIn": [
+                null
+            ],
+            "depth": 4,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6295630&type=geoname"
+                    },
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed51dadb30820bb38791",
+            "geonameId": 6255149,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38782"
+            ],
+            "geonames": {
+                "population": 0,
+                "fcode": "CONT",
+                "fcl": "L",
+                "lat": "46.07323",
+                "adminName1": "",
+                "fcodeName": "continent",
+                "toponymName": "North America",
+                "fclName": "parks,area, ...",
+                "name": "North America",
+                "geonameId": 6255149,
+                "lng": "-100.54688"
+            },
+            "location": {
+                "coordinates": [
+                    -100.54688,
+                    46.07323
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America",
+            "name": "North America",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 3,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6255149&type=geoname"
+                    },
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed51dadb30820bb3879c",
+            "geonameId": 6252001,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "39.76",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "United States",
+                "fclName": "country, state, region,...",
+                "name": "United States",
+                "countryCode": "US",
+                "population": 310232863,
+                "fcl": "A",
+                "countryId": "6252001",
+                "toponymName": "United States",
+                "geonameId": 6252001,
+                "lng": "-98.5",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -98.5,
+                    39.76
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States",
+            "name": "United States",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 2,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6252001&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed51dadb30820bb387a6",
+            "geonameId": 5332921,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb3879c"
+            ],
+            "geonames": {
+                "fcode": "ADM1",
+                "lat": "37.25022",
+                "adminName1": "California",
+                "fcodeName": "first-order administrative division",
+                "countryName": "United States",
+                "fclName": "country, state, region,...",
+                "name": "California",
+                "countryCode": "US",
+                "population": 37691912,
+                "fcl": "A",
+                "countryId": "6252001",
+                "toponymName": "California",
+                "geonameId": 5332921,
+                "lng": "-119.75126",
+                "adminCode1": "CA"
+            },
+            "location": {
+                "coordinates": [
+                    -119.75126,
+                    37.25022
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States,California",
+            "name": "California",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5332921&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/5332921"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states/california-surfing-and-beaches/5332921"
+                    }
+                ]
+            }
+        }
+    ],
+    "contains": [
+        {
+            "_id": "58f7ed59dadb30820bb39233",
+            "geonameId": 5334619,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f8b"
+            ],
+            "geonames": {
+                "fcode": "PPL",
+                "lat": "34.18362",
+                "adminName1": "California",
+                "fcodeName": "populated place",
+                "countryName": "United States",
+                "fclName": "city, village,...",
+                "name": "Casa Conejo",
+                "countryCode": "US",
+                "population": 3249,
+                "fcl": "P",
+                "countryId": "6252001",
+                "toponymName": "Casa Conejo",
+                "geonameId": 5334619,
+                "lng": "-118.94343",
+                "adminCode1": "CA"
+            },
+            "location": {
+                "coordinates": [
+                    -118.94343,
+                    34.18362
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States,California,Ventura County,Casa Conejo",
+            "name": "Casa Conejo",
+            "category": "geonames",
+            "hasSpots": false,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5334619&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/ventura-county/casa-conejo/5334619"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states/california/ventura-county/casa-conejo-surfing-and-beaches/5334619"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed58dadb30820bb38f96",
+            "geonameId": 5405878,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f8b"
+            ],
+            "geonames": {
+                "fcode": "PPLA2",
+                "lat": "34.27834",
+                "adminName1": "California",
+                "fcodeName": "seat of a second-order administrative division",
+                "countryName": "United States",
+                "fclName": "city, village,...",
+                "name": "Ventura",
+                "countryCode": "US",
+                "population": 96769,
+                "fcl": "P",
+                "countryId": "6252001",
+                "toponymName": "Ventura",
+                "geonameId": 5405878,
+                "lng": "-119.29317",
+                "adminCode1": "CA"
+            },
+            "location": {
+                "coordinates": [
+                    -119.29317,
+                    34.27834
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States,California,Ventura County,Ventura",
+            "name": "Ventura",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5405878&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/ventura-county/ventura/5405878"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states/california/ventura-county/ventura-surfing-and-beaches/5405878"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edbcdadb30820bb3fd33",
+            "geonameId": 5380202,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f8b"
+            ],
+            "geonames": {
+                "fcode": "PPL",
+                "lat": "34.19084",
+                "adminName1": "California",
+                "fcodeName": "populated place",
+                "countryName": "United States",
+                "fclName": "city, village,...",
+                "name": "Oxnard Shores",
+                "countryCode": "US",
+                "population": 187235,
+                "fcl": "P",
+                "countryId": "6252001",
+                "toponymName": "Oxnard Shores",
+                "geonameId": 5380202,
+                "lng": "-119.2415",
+                "adminCode1": "CA"
+            },
+            "location": {
+                "coordinates": [
+                    -119.2415,
+                    34.19084
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States,California,Ventura County,Oxnard Shores",
+            "name": "Oxnard Shores",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5380202&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/ventura-county/oxnard-shores/5380202"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states/california/ventura-county/oxnard-shores-surfing-and-beaches/5380202"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edbfdadb30820bb4015d",
+            "spot": "5842041f4e65fad6a770895e",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.3366646794652,
+                    34.28991757054902
+                ],
+                "type": "Point"
+            },
+            "name": "Summer Beach",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770895e&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770895e"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/summer-beach/5842041f4e65fad6a770895e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "59c1970edadb30820b1d5a7f",
+            "spot": "59c1970dbb6f23001cd20dd7",
+            "type": "spot",
+            "hasSpots": false,
+            "location": {
+                "coordinates": [
+                    -119.30279016494751,
+                    34.27367307161658
+                ],
+                "type": "Point"
+            },
+            "name": "Ventura Point Overview",
+            "category": "surfline",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=59c1970dbb6f23001cd20dd7&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/59c1970dbb6f23001cd20dd7"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/ventura-point-overview/59c1970dbb6f23001cd20dd7"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edbddadb30820bb3ff16",
+            "spot": "5842041f4e65fad6a7708959",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.316202617226,
+                    34.27851754384724
+                ],
+                "type": "Point"
+            },
+            "name": "Emma Wood",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708959&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708959"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/emma-wood/5842041f4e65fad6a7708959"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7f229dadb30820bb94b7d",
+            "spot": "584204204e65fad6a770904d",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -119.37697854232789,
+                    34.32027598405835
+                ]
+            },
+            "name": "Mondos",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=584204204e65fad6a770904d&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/584204204e65fad6a770904d"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/mondos/584204204e65fad6a770904d"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edbddadb30820bb3fe4b",
+            "spot": "5842041f4e65fad6a7708957",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.3882324751725,
+                    34.31720331100517
+                ],
+                "type": "Point"
+            },
+            "name": "Pitas Point",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708957&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708957"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/pitas-point/5842041f4e65fad6a7708957"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f80a72dadb30820bd0ff32",
+            "spot": "584204204e65fad6a77096b1",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.30201768875122,
+                    34.27166936557063
+                ],
+                "type": "Point"
+            },
+            "name": "Ventura Point",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=584204204e65fad6a77096b1&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/584204204e65fad6a77096b1"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/ventura-point/584204204e65fad6a77096b1"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edc0dadb30820bb401ff",
+            "spot": "5842041f4e65fad6a770895f",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.3582501170116,
+                    34.30897456105926
+                ],
+                "type": "Point"
+            },
+            "name": "Solimar",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770895f&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770895f"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/solimar/5842041f4e65fad6a770895f"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed58dadb30820bb39099",
+            "spot": "5842041f4e65fad6a7708811",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -119.2709255218,
+                    34.249554500717
+                ]
+            },
+            "name": "Ventura Harbor",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708811&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708811"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/ventura-harbor/5842041f4e65fad6a7708811"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f80a9ddadb30820bd12fce",
+            "spot": "584204214e65fad6a7709cfd",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.29970026016235,
+                    34.27252050317614
+                ],
+                "type": "Point"
+            },
+            "name": "C St. Overview",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=584204214e65fad6a7709cfd&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/584204214e65fad6a7709cfd"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/c-st-overview/584204214e65fad6a7709cfd"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edbcdadb30820bb3fd40",
+            "spot": "5842041f4e65fad6a770894c",
+            "type": "spot",
+            "liesIn": [
+                "58f7edbcdadb30820bb3fd33",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.2399483564372,
+                    34.17876333306018
+                ],
+                "type": "Point"
+            },
+            "name": "Oxnard",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770894c&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770894c"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/oxnard/5842041f4e65fad6a770894c"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed58dadb30820bb38f9e",
+            "spot": "5842041f4e65fad6a770880d",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.3489016603669,
+                    34.29982939936656
+                ],
+                "type": "Point"
+            },
+            "name": "Gold Coast Beachbreaks",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770880d&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770880d"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/gold-coast-beachbreaks/5842041f4e65fad6a770880d"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7edc3dadb30820bb404f6",
+            "spot": "5842041f4e65fad6a7708963",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.3133222656776,
+                    34.27479983305182
+                ],
+                "type": "Point"
+            },
+            "name": "Ventura Overhead",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708963&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708963"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/ventura-overhead/5842041f4e65fad6a7708963"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed5fdadb30820bb39978",
+            "spot": "5842041f4e65fad6a7708828",
+            "type": "spot",
+            "liesIn": [
+                "58f7ed58dadb30820bb38f96",
+                "58f7ed58dadb30820bb38fb2"
+            ],
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -119.2997646331,
+                    34.272041739333
+                ]
+            },
+            "name": "C St.",
+            "category": "surfline",
+            "hasSpots": false,
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708828&type=spot"
+                    },
+                    {
+                        "key": "api",
+                        "href": "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708828"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-report/c-st-/5842041f4e65fad6a7708828"
+                    }
+                ]
+            }
+        }
+    ]
+}

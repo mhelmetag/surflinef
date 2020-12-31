@@ -1,0 +1,1361 @@
+{
+    "_id": "58f7ed51dadb30820bb38791",
+    "geonameId": 6255149,
+    "type": "geoname",
+    "liesIn": [
+        "58f7ed51dadb30820bb38782"
+    ],
+    "geonames": {
+        "population": 0,
+        "fcode": "CONT",
+        "fcl": "L",
+        "lat": "46.07323",
+        "adminName1": "",
+        "fcodeName": "continent",
+        "toponymName": "North America",
+        "fclName": "parks,area, ...",
+        "name": "North America",
+        "geonameId": 6255149,
+        "lng": "-100.54688"
+    },
+    "location": {
+        "coordinates": [
+            -100.54688,
+            46.07323
+        ],
+        "type": "Point"
+    },
+    "enumeratedPath": ",Earth,North America",
+    "name": "North America",
+    "category": "geonames",
+    "hasSpots": true,
+    "associated": {
+        "links": [
+            {
+                "key": "taxonomy",
+                "href": "http://spots-api.prod.surfline.com/taxonomy?id=6255149&type=geoname"
+            },
+            null,
+            null
+        ]
+    },
+    "in": [
+        {
+            "_id": "58f7ed51dadb30820bb38782",
+            "geonameId": 6295630,
+            "type": "geoname",
+            "geonames": {
+                "population": 6814400000,
+                "fcode": "AREA",
+                "fcl": "L",
+                "lat": "0",
+                "adminName1": "",
+                "fcodeName": "area",
+                "toponymName": "Earth",
+                "fclName": "parks,area, ...",
+                "name": "Earth",
+                "geonameId": 6295630,
+                "lng": "0"
+            },
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth",
+            "name": "Earth",
+            "category": "geonames",
+            "hasSpots": true,
+            "liesIn": [
+                null
+            ],
+            "depth": 1,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6295630&type=geoname"
+                    },
+                    null,
+                    null
+                ]
+            }
+        }
+    ],
+    "contains": [
+        {
+            "_id": "58f7eeeddadb30820bb551fa",
+            "geonameId": 3617476,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "13",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Nicaragua",
+                "fclName": "country, state, region,...",
+                "name": "Nicaragua",
+                "countryCode": "NI",
+                "population": 5995928,
+                "fcl": "A",
+                "countryId": "3617476",
+                "toponymName": "Republic of Nicaragua",
+                "geonameId": 3617476,
+                "lng": "-85",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -85,
+                    13
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Nicaragua",
+            "name": "Nicaragua",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3617476&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/nicaragua/3617476"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/nicaragua-surfing-and-beaches/3617476"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7efabdadb30820bb62ab5",
+            "geonameId": 3489940,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "18.16667",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Jamaica",
+                "fclName": "country, state, region,...",
+                "name": "Jamaica",
+                "countryCode": "JM",
+                "population": 2847232,
+                "fcl": "A",
+                "countryId": "3489940",
+                "toponymName": "Jamaica",
+                "geonameId": 3489940,
+                "lng": "-77.25",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -77.25,
+                    18.16667
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Jamaica",
+            "name": "Jamaica",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3489940&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/jamaica/3489940"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/jamaica-surfing-and-beaches/3489940"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7f07fdadb30820bb717de",
+            "geonameId": 3585968,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "13.83333",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "El Salvador",
+                "fclName": "country, state, region,...",
+                "name": "El Salvador",
+                "countryCode": "SV",
+                "population": 6052064,
+                "fcl": "A",
+                "countryId": "3585968",
+                "toponymName": "Republic of El Salvador",
+                "geonameId": 3585968,
+                "lng": "-88.91667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -88.91667,
+                    13.83333
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,El Salvador",
+            "name": "El Salvador",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3585968&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/el-salvador/3585968"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/el-salvador-surfing-and-beaches/3585968"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f83460dadb30820bf15fda",
+            "geonameId": 3576468,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "13.88333",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Saint Lucia",
+                "fclName": "country, state, region,...",
+                "name": "St Lucia",
+                "countryCode": "LC",
+                "population": 160922,
+                "fcl": "A",
+                "countryId": "3576468",
+                "toponymName": "Saint Lucia",
+                "geonameId": 3576468,
+                "lng": "-60.96667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -60.96667,
+                    13.88333
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,St Lucia",
+            "name": "St Lucia",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3576468&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/st-lucia/3576468"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/st-lucia-surfing-and-beaches/3576468"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f83463dadb30820bf163f3",
+            "geonameId": 7626836,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLIX",
+                "lat": "12.16667",
+                "adminName1": "",
+                "fcodeName": "section of independent political entity",
+                "countryName": "Curacao",
+                "fclName": "country, state, region,...",
+                "name": "Curaçao",
+                "countryCode": "CW",
+                "population": 141766,
+                "fcl": "A",
+                "countryId": "7626836",
+                "toponymName": "Country of Curaçao",
+                "geonameId": 7626836,
+                "lng": "-68.96667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -68.96667,
+                    12.16667
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Curaçao",
+            "name": "Curaçao",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=7626836&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/cura-ao/7626836"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/cura-ao-surfing-and-beaches/7626836"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f83464dadb30820bf16647",
+            "geonameId": 4796775,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLD",
+                "lat": "18.34829",
+                "adminName1": "",
+                "fcodeName": "dependent political entity",
+                "countryName": "U.S. Virgin Islands",
+                "fclName": "country, state, region,...",
+                "name": "U.S. Virgin Islands",
+                "countryCode": "VI",
+                "population": 108708,
+                "fcl": "A",
+                "countryId": "4796775",
+                "toponymName": "Virgin Islands of the United States",
+                "geonameId": 4796775,
+                "lng": "-64.98348",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -64.98348,
+                    18.34829
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,U.S. Virgin Islands",
+            "name": "U.S. Virgin Islands",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=4796775&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/u-s-virgin-islands/4796775"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/u-s-virgin-islands-surfing-and-beaches/4796775"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7f0a4dadb30820bb7428f",
+            "geonameId": 3572887,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "25.04082",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Bahamas",
+                "fclName": "country, state, region,...",
+                "name": "Bahamas",
+                "countryCode": "BS",
+                "population": 301790,
+                "fcl": "A",
+                "countryId": "3572887",
+                "toponymName": "Commonwealth of The Bahamas",
+                "geonameId": 3572887,
+                "lng": "-77.37122",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -77.37122,
+                    25.04082
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Bahamas",
+            "name": "Bahamas",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3572887&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/bahamas/3572887"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/bahamas-surfing-and-beaches/3572887"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7efb1dadb30820bb63155",
+            "geonameId": 3508796,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "19",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Dominican Republic",
+                "fclName": "country, state, region,...",
+                "name": "Dominican Republic",
+                "countryCode": "DO",
+                "population": 9823821,
+                "fcl": "A",
+                "countryId": "3508796",
+                "toponymName": "Dominican Republic",
+                "geonameId": 3508796,
+                "lng": "-70.66667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -70.66667,
+                    19
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Dominican Republic",
+            "name": "Dominican Republic",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3508796&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/dominican-republic/3508796"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/dominican-republic-surfing-and-beaches/3508796"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7f075dadb30820bb70cab",
+            "geonameId": 6251999,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "60.10867",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Canada",
+                "fclName": "country, state, region,...",
+                "name": "Canada",
+                "countryCode": "CA",
+                "population": 33679000,
+                "fcl": "A",
+                "countryId": "6251999",
+                "toponymName": "Canada",
+                "geonameId": 6251999,
+                "lng": "-113.64258",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -113.64258,
+                    60.10867
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Canada",
+            "name": "Canada",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6251999&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/canada/6251999"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/canada-surfing-and-beaches/6251999"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f8345edadb30820bf15be7",
+            "geonameId": 3570311,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLD",
+                "lat": "14.66667",
+                "adminName1": "",
+                "fcodeName": "dependent political entity",
+                "countryName": "Martinique",
+                "fclName": "country, state, region,...",
+                "name": "Martinique",
+                "countryCode": "MQ",
+                "population": 432900,
+                "fcl": "A",
+                "countryId": "3570311",
+                "toponymName": "Martinique",
+                "geonameId": 3570311,
+                "lng": "-61",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -61,
+                    14.66667
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Martinique",
+            "name": "Martinique",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3570311&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/martinique/3570311"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/martinique-surfing-and-beaches/3570311"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7ed51dadb30820bb3879c",
+            "geonameId": 6252001,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "39.76",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "United States",
+                "fclName": "country, state, region,...",
+                "name": "United States",
+                "countryCode": "US",
+                "population": 310232863,
+                "fcl": "A",
+                "countryId": "6252001",
+                "toponymName": "United States",
+                "geonameId": 6252001,
+                "lng": "-98.5",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -98.5,
+                    39.76
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,United States",
+            "name": "United States",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=6252001&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f8345ddadb30820bf159e0",
+            "geonameId": 3575830,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "15.5",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Dominica",
+                "fclName": "country, state, region,...",
+                "name": "Dominica",
+                "countryCode": "DM",
+                "population": 72813,
+                "fcl": "A",
+                "countryId": "3575830",
+                "toponymName": "Dominica",
+                "geonameId": 3575830,
+                "lng": "-61.33333",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -61.33333,
+                    15.5
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Dominica",
+            "name": "Dominica",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3575830&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/dominica/3575830"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/dominica-surfing-and-beaches/3575830"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f8362bdadb30820bf2d756",
+            "geonameId": 3580239,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "12.11667",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Grenada",
+                "fclName": "country, state, region,...",
+                "name": "Grenada",
+                "countryCode": "GD",
+                "population": 107818,
+                "fcl": "A",
+                "countryId": "3580239",
+                "toponymName": "Grenada",
+                "geonameId": 3580239,
+                "lng": "-61.66667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -61.66667,
+                    12.11667
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Grenada",
+            "name": "Grenada",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3580239&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/grenada/3580239"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/grenada-surfing-and-beaches/3580239"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7eef6dadb30820bb55dba",
+            "geonameId": 3703430,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "9",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Panama",
+                "fclName": "country, state, region,...",
+                "name": "Panama",
+                "countryCode": "PA",
+                "population": 3410676,
+                "fcl": "A",
+                "countryId": "3703430",
+                "toponymName": "Republic of Panama",
+                "geonameId": 3703430,
+                "lng": "-80",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -80,
+                    9
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Panama",
+            "name": "Panama",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3703430&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/panama/3703430"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/panama-surfing-and-beaches/3703430"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7efb7dadb30820bb63961",
+            "geonameId": 3573591,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "11",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Trinidad and Tobago",
+                "fclName": "country, state, region,...",
+                "name": "Trinidad and Tobago",
+                "countryCode": "TT",
+                "population": 1328019,
+                "fcl": "A",
+                "countryId": "3573591",
+                "toponymName": "Republic of Trinidad and Tobago",
+                "geonameId": 3573591,
+                "lng": "-61",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -61,
+                    11
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Trinidad and Tobago",
+            "name": "Trinidad and Tobago",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3573591&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/trinidad-and-tobago/3573591"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/trinidad-and-tobago-surfing-and-beaches/3573591"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7efb5dadb30820bb6364c",
+            "geonameId": 3577718,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLD",
+                "lat": "18.5",
+                "adminName1": "",
+                "fcodeName": "dependent political entity",
+                "countryName": "British Virgin Islands",
+                "fclName": "country, state, region,...",
+                "name": "British Virgin Islands",
+                "countryCode": "VG",
+                "population": 21730,
+                "fcl": "A",
+                "countryId": "3577718",
+                "toponymName": "British Virgin Islands",
+                "geonameId": 3577718,
+                "lng": "-64.5",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -64.5,
+                    18.5
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,British Virgin Islands",
+            "name": "British Virgin Islands",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3577718&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/british-virgin-islands/3577718"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/british-virgin-islands-surfing-and-beaches/3577718"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7f0b3dadb30820bb75433",
+            "geonameId": 3577279,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLIX",
+                "lat": "12.5",
+                "adminName1": "",
+                "fcodeName": "section of independent political entity",
+                "countryName": "Aruba",
+                "fclName": "country, state, region,...",
+                "name": "Aruba",
+                "countryCode": "AW",
+                "population": 71566,
+                "fcl": "A",
+                "countryId": "3577279",
+                "toponymName": "Aruba",
+                "geonameId": 3577279,
+                "lng": "-69.96667",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -69.96667,
+                    12.5
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Aruba",
+            "name": "Aruba",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3577279&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/aruba/3577279"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/aruba-surfing-and-beaches/3577279"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f833f8dadb30820bf10d8a",
+            "geonameId": 3595528,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "15.5",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Guatemala",
+                "fclName": "country, state, region,...",
+                "name": "Guatemala",
+                "countryCode": "GT",
+                "population": 13550440,
+                "fcl": "A",
+                "countryId": "3595528",
+                "toponymName": "Republic of Guatemala",
+                "geonameId": 3595528,
+                "lng": "-90.25",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -90.25,
+                    15.5
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Guatemala",
+            "name": "Guatemala",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3595528&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/guatemala/3595528"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/guatemala-surfing-and-beaches/3595528"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7eeeedadb30820bb55333",
+            "geonameId": 4566966,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLD",
+                "lat": "18.24829",
+                "adminName1": "",
+                "fcodeName": "dependent political entity",
+                "countryName": "Puerto Rico",
+                "fclName": "country, state, region,...",
+                "name": "Puerto Rico",
+                "countryCode": "PR",
+                "population": 3916632,
+                "fcl": "A",
+                "countryId": "4566966",
+                "toponymName": "Puerto Rico",
+                "geonameId": 4566966,
+                "lng": "-66.49989",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -66.49989,
+                    18.24829
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Puerto Rico",
+            "name": "Puerto Rico",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=4566966&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/puerto-rico/4566966"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/puerto-rico-surfing-and-beaches/4566966"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7eeefdadb30820bb55491",
+            "geonameId": 3374084,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "13.16453",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Barbados",
+                "fclName": "country, state, region,...",
+                "name": "Barbados",
+                "countryCode": "BB",
+                "population": 285653,
+                "fcl": "A",
+                "countryId": "3374084",
+                "toponymName": "Barbados",
+                "geonameId": 3374084,
+                "lng": "-59.55165",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -59.55165,
+                    13.16453
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Barbados",
+            "name": "Barbados",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3374084&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/barbados/3374084"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/barbados-surfing-and-beaches/3374084"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f8345adadb30820bf156d0",
+            "geonameId": 3579143,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLD",
+                "lat": "16.25",
+                "adminName1": "",
+                "fcodeName": "dependent political entity",
+                "countryName": "Guadeloupe",
+                "fclName": "country, state, region,...",
+                "name": "Guadeloupe",
+                "countryCode": "GP",
+                "population": 443000,
+                "fcl": "A",
+                "countryId": "3579143",
+                "toponymName": "Guadeloupe",
+                "geonameId": 3579143,
+                "lng": "-61.58333",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -61.58333,
+                    16.25
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Guadeloupe",
+            "name": "Guadeloupe",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3579143&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/guadeloupe/3579143"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/guadeloupe-surfing-and-beaches/3579143"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7eeecdadb30820bb550cc",
+            "geonameId": 3996063,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "23",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Mexico",
+                "fclName": "country, state, region,...",
+                "name": "Mexico",
+                "countryCode": "MX",
+                "population": 112468855,
+                "fcl": "A",
+                "countryId": "3996063",
+                "toponymName": "Mexico",
+                "geonameId": 3996063,
+                "lng": "-102",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -102,
+                    23
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Mexico",
+            "name": "Mexico",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3996063&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/mexico/3996063"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/mexico-surfing-and-beaches/3996063"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7eef2dadb30820bb557af",
+            "geonameId": 3624060,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "10",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Costa Rica",
+                "fclName": "country, state, region,...",
+                "name": "Costa Rica",
+                "countryCode": "CR",
+                "population": 4516220,
+                "fcl": "A",
+                "countryId": "3624060",
+                "toponymName": "Republic of Costa Rica",
+                "geonameId": 3624060,
+                "lng": "-84",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -84,
+                    10
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Costa Rica",
+            "name": "Costa Rica",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3624060&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/costa-rica/3624060"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/costa-rica-surfing-and-beaches/3624060"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "58f7efa9dadb30820bb627b6",
+            "geonameId": 3562981,
+            "type": "geoname",
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "geonames": {
+                "fcode": "PCLI",
+                "lat": "22",
+                "adminName1": "",
+                "fcodeName": "independent political entity",
+                "countryName": "Cuba",
+                "fclName": "country, state, region,...",
+                "name": "Cuba",
+                "countryCode": "CU",
+                "population": 11423000,
+                "fcl": "A",
+                "countryId": "3562981",
+                "toponymName": "Republic of Cuba",
+                "geonameId": 3562981,
+                "lng": "-79.5",
+                "adminCode1": "00"
+            },
+            "location": {
+                "coordinates": [
+                    -79.5,
+                    22
+                ],
+                "type": "Point"
+            },
+            "enumeratedPath": ",Earth,North America,Cuba",
+            "name": "Cuba",
+            "category": "geonames",
+            "hasSpots": true,
+            "depth": 0,
+            "associated": {
+                "links": [
+                    {
+                        "key": "taxonomy",
+                        "href": "http://spots-api.prod.surfline.com/taxonomy?id=3562981&type=geoname"
+                    },
+                    {
+                        "key": "www",
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/cuba/3562981"
+                    },
+                    {
+                        "key": "travel",
+                        "href": "https://www.surfline.com/travel/cuba-surfing-and-beaches/3562981"
+                    }
+                ]
+            }
+        }
+    ]
+}

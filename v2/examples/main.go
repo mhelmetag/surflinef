@@ -10,10 +10,11 @@ import (
 func main() {
 	getConditions()
 	getTides()
+	getTaxonomy()
 }
 
 func getConditions() {
-	bu, err := url.Parse("https://services.surfline.com/kbyg/regions/forecasts/conditions")
+	bu, err := url.Parse(surflinef.ConditionsBaseURL)
 	if err != nil {
 		fmt.Printf("Error parsing URL: %v\n", err)
 		return
@@ -42,7 +43,7 @@ func getConditions() {
 }
 
 func getTides() {
-	bu, err := url.Parse("https://services.surfline.com/kbyg/spots/forecasts/tides")
+	bu, err := url.Parse(surflinef.TidesBaseURL)
 	if err != nil {
 		fmt.Printf("Error parsing URL: %v\n", err)
 		return
@@ -68,4 +69,34 @@ func getTides() {
 	}
 
 	fmt.Printf("Tides: %v\n", ts)
+}
+
+func getTaxonomy() {
+	bu, err := url.Parse(surflinef.TaxonomyBaseURL)
+	if err != nil {
+		fmt.Printf("Error parsing URL: %v\n", err)
+		return
+	}
+
+	c := surflinef.Client{BaseURL: bu}
+
+	tq := surflinef.TaxonomyQuery{
+		ID:       "58f7ed58dadb30820bb38f8b",
+		MaxDepth: 1,
+		Type:     "taxonomy",
+	}
+
+	tqs, err := tq.TaxonomyQueryString()
+	if err != nil {
+		fmt.Printf("Error building Query string: %v\n", err)
+		return
+	}
+
+	t, err := c.GetTaxonomy(tqs)
+	if err != nil {
+		fmt.Printf("Error fetching Taxonomy: %v\n", err)
+		return
+	}
+
+	fmt.Printf("Taxonomy: %v\n", t)
 }
