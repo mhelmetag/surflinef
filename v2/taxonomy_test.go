@@ -109,7 +109,7 @@ func TestTaxonomyWithSpots(t *testing.T) {
 
 	csi := "5842041f4e65fad6a770895e"
 	acsi := cs[0].Spot
-	if acsn != csn {
+	if acsi != csi {
 		t.Errorf("Got '%s', expected '%s'", acsi, csi)
 	}
 }
@@ -159,9 +159,9 @@ func TestTaxonomyWithSubregions(t *testing.T) {
 		t.Errorf("Got '%s', expected '%s'", acsn, csn)
 	}
 
-	csi := "58581a836630e24c44879009"
-	acsi := cs[0].Subregion
-	if acsn != csn {
-		t.Errorf("Got '%s', expected '%s'", acsi, csi)
+	csri := "58581a836630e24c44879009"
+	acsri := cs[0].Subregion
+	if acsri != csri {
+		t.Errorf("Got '%s', expected '%s'", acsri, csri)
 	}
 }
