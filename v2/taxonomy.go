@@ -7,11 +7,12 @@ import (
 
 // Taxonomy is the JSON struct for a daily condition
 type Taxonomy struct {
-	ID       string     `json:"_id"`
-	Spot     string     `json:"spot,omitempty"`
-	Type     string     `json:"type"`
-	Name     string     `json:"name"`
-	Contains []Taxonomy `json:"contains,omitempty"`
+	ID        string     `json:"_id"`
+	Spot      string     `json:"spot,omitempty"`
+	Subregion string     `json:"subregion,omitempty"`
+	Type      string     `json:"type"`
+	Name      string     `json:"name"`
+	Contains  []Taxonomy `json:"contains,omitempty"`
 }
 
 // GetTaxonomy fetches a Taxonomy from the API.

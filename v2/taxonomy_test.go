@@ -113,3 +113,55 @@ func TestTaxonomyWithSpots(t *testing.T) {
 		t.Errorf("Got '%s', expected '%s'", acsi, csi)
 	}
 }
+
+func TestTaxonomyWithSubregions(t *testing.T) {
+	ts, err := setupFixtureServer("fixtures/taxonomy-with-subregions.json")
+	defer ts.Close()
+
+	bu, err := url.Parse(ts.URL)
+	if err != nil {
+		t.Fatal(err)
+	}
+	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+
+	tq := TaxonomyQuery{
+		ID:       "58f7ed51dadb30820bb387a6",
+		MaxDepth: 0,
+		Type:     "taxonomy",
+	}
+
+	tqs, err := tq.TaxonomyQueryString()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	tx, err := c.GetTaxonomy(tqs)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	en := "California"
+	an := tx.Name
+	if an != en {
+		t.Errorf("Got '%s', expected '%s'", an, en)
+	}
+
+	var cs []Taxonomy
+	for i := range tx.Contains {
+		if tx.Contains[i].Type == "subregion" {
+			cs = append(cs, tx.Contains[i])
+		}
+	}
+
+	csn := "Marin County"
+	acsn := cs[0].Name
+	if acsn != csn {
+		t.Errorf("Got '%s', expected '%s'", acsn, csn)
+	}
+
+	csi := "58581a836630e24c44879009"
+	acsi := cs[0].Subregion
+	if acsn != csn {
+		t.Errorf("Got '%s', expected '%s'", acsi, csi)
+	}
+}
