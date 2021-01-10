@@ -21,7 +21,7 @@ type Tide struct {
 	Height    float64 `json:"height"`
 }
 
-// GetTides fetches a TidesResponse from the API.
+// GetTides fetches a TidesResponse from the API
 func (c *Client) GetTides(qs string) (TidesResponse, error) {
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)

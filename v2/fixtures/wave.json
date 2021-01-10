@@ -1,0 +1,3773 @@
+{
+    "associated": {
+        "units": {
+            "temperature": "F",
+            "tideHeight": "FT",
+            "swellHeight": "FT",
+            "waveHeight": "FT",
+            "windSpeed": "KTS",
+            "model": "LOLA"
+        },
+        "utcOffset": -8,
+        "location": {
+            "lon": -119.4779722031395,
+            "lat": 34.37256264378892
+        },
+        "forecastLocation": {
+            "lon": -119.479,
+            "lat": 34.369
+        },
+        "offshoreLocation": {
+            "lon": -119.60000000000001,
+            "lat": 34.25
+        }
+    },
+    "data": {
+        "wave": [
+            {
+                "timestamp": 1610179200,
+                "surf": {
+                    "min": 1.8,
+                    "max": 2.79,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.59,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.31,
+                        "period": 6,
+                        "direction": 262.97,
+                        "directionMin": 258.75,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610182800,
+                "surf": {
+                    "min": 1.8,
+                    "max": 2.79,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.59,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.31,
+                        "period": 6,
+                        "direction": 262.97,
+                        "directionMin": 258.75,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610186400,
+                "surf": {
+                    "min": 1.8,
+                    "max": 2.79,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.59,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.31,
+                        "period": 6,
+                        "direction": 262.97,
+                        "directionMin": 258.75,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610190000,
+                "surf": {
+                    "min": 1.8,
+                    "max": 2.79,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.59,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.31,
+                        "period": 6,
+                        "direction": 262.97,
+                        "directionMin": 258.75,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610193600,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610197200,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610200800,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610204400,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610208000,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610211600,
+                "surf": {
+                    "min": 2,
+                    "max": 3.02,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.69,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610215200,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610218800,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610222400,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610226000,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610229600,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610233200,
+                "surf": {
+                    "min": 1.74,
+                    "max": 2.72,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.49,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610236800,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610240400,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610244000,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610247600,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610251200,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610254800,
+                "surf": {
+                    "min": 1.71,
+                    "max": 2.69,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.2,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610258400,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610262000,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610265600,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610269200,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610272800,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610276400,
+                "surf": {
+                    "min": 1.64,
+                    "max": 2.66,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.8,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610280000,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610283600,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610287200,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610290800,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610294400,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610298000,
+                "surf": {
+                    "min": 1.48,
+                    "max": 2.46,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.98,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.12,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610301600,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610305200,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610308800,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610312400,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610316000,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610319600,
+                "surf": {
+                    "min": 1.25,
+                    "max": 2.23,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 0.69,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.89,
+                        "period": 14,
+                        "direction": 264.38,
+                        "directionMin": 260.16,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 180,
+                        "directionMin": 175.78,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610323200,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610326800,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610330400,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610334000,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610337600,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610341200,
+                "surf": {
+                    "min": 1.15,
+                    "max": 2.17,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.12,
+                        "period": 16,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.51,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.79,
+                        "period": 20,
+                        "direction": 268.59,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 12,
+                        "direction": 181.41,
+                        "directionMin": 177.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610344800,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610348400,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610352000,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610355600,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610359200,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610362800,
+                "surf": {
+                    "min": 2.3,
+                    "max": 3.25,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.51,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.41,
+                        "period": 8,
+                        "direction": 265.78,
+                        "directionMin": 262.27,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610366400,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610370000,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610373600,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610377200,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610380800,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610384400,
+                "surf": {
+                    "min": 2.95,
+                    "max": 3.54,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 4.3,
+                        "period": 18,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 1.61,
+                        "period": 8,
+                        "direction": 267.19,
+                        "directionMin": 264.38,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610388000,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610391600,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610395200,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610398800,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610402400,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610406000,
+                "surf": {
+                    "min": 2.43,
+                    "max": 3.41,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 3.71,
+                        "period": 16,
+                        "direction": 270,
+                        "directionMin": 267.19,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.71,
+                        "period": 9,
+                        "direction": 265.78,
+                        "directionMin": 262.97,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610409600,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610413200,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610416800,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610420400,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610424000,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610427600,
+                "surf": {
+                    "min": 2.36,
+                    "max": 3.35,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 2.79,
+                        "period": 16,
+                        "direction": 268.59,
+                        "directionMin": 265.78,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 9,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0.2,
+                        "period": 4,
+                        "direction": 270,
+                        "directionMin": 270,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610431200,
+                "surf": {
+                    "min": 2.23,
+                    "max": 3.22,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 15,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            },
+            {
+                "timestamp": 1610434800,
+                "surf": {
+                    "min": 2.23,
+                    "max": 3.22,
+                    "optimalScore": 0
+                },
+                "swells": [
+                    {
+                        "height": 1.8,
+                        "period": 15,
+                        "direction": 267.19,
+                        "directionMin": 263.67,
+                        "optimalScore": 1
+                    },
+                    {
+                        "height": 1.9,
+                        "period": 8,
+                        "direction": 264.38,
+                        "directionMin": 260.86,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    },
+                    {
+                        "height": 0,
+                        "period": 0,
+                        "direction": 0,
+                        "directionMin": 0,
+                        "optimalScore": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

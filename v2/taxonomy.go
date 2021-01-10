@@ -8,14 +8,14 @@ import (
 // Taxonomy is the JSON struct for a daily condition
 type Taxonomy struct {
 	ID        string     `json:"_id"`
-	Spot      string     `json:"spot,omitempty"`
-	Subregion string     `json:"subregion,omitempty"`
+	Spot      string     `json:"spot"`
+	Subregion string     `json:"subregion"`
 	Type      string     `json:"type"`
 	Name      string     `json:"name"`
-	Contains  []Taxonomy `json:"contains,omitempty"`
+	Contains  []Taxonomy `json:"contains"`
 }
 
-// GetTaxonomy fetches a Taxonomy from the API.
+// GetTaxonomy fetches a Taxonomy from the API
 func (c *Client) GetTaxonomy(qs string) (Taxonomy, error) {
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)

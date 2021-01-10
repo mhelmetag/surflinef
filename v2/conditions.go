@@ -7,7 +7,8 @@ import (
 
 // ConditionsResponse is the root JSON struct for condition data
 type ConditionsResponse struct {
-	Data conditonsData `json:"data"`
+	Associated Associated    `json:"associated"`
+	Data       conditonsData `json:"data"`
 }
 
 type conditonsData struct {
@@ -24,13 +25,13 @@ type Condition struct {
 	PM          Report     `json:"pm"`
 }
 
-// Forecaster is the JSON struct for the forecaster.
+// Forecaster is the JSON struct for the forecaster
 type Forecaster struct {
 	Name   string `json:"name"`
 	Avatar string `json:"avatar"`
 }
 
-// Report is the JSON struct of a report (for the AM or PM).
+// Report is the JSON struct of a report (for the AM or PM)
 type Report struct {
 	MaxHeight     float64 `json:"maxHeight"`
 	MinHeight     float64 `json:"minHeight"`
@@ -38,7 +39,7 @@ type Report struct {
 	Rating        string  `json:"rating"`
 }
 
-// GetConditions fetches a ConditionsResponse from the API.
+// GetConditions fetches a ConditionsResponse from the API
 func (c *Client) GetConditions(qs string) (ConditionsResponse, error) {
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)
