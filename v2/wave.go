@@ -7,25 +7,30 @@ import (
 
 // WaveResponse is the root JSON struct for wave data
 type WaveResponse struct {
-	Data waveData `json:"data"`
+	Associated Associated `json:"associated"`
+	Data       waveData   `json:"data"`
 }
 
 type waveData struct {
 	Wave []Wave `json:"wave"`
 }
 
+// Wave is the JSON struct for an interval's swells
 type Wave struct {
 	Timestamp int     `json:"timestamp"`
 	Surf      Surf    `json:"surf"`
 	Swells    []Swell `json:"swells"`
 }
 
+// Surf is the JSON struct for an interval's nearshore height
+// At least... I think it is nearshore height
 type Surf struct {
 	Min          float64 `json:"min"`
 	Max          float64 `json:"max"`
 	OptimalScore int     `json:"optimalScore"`
 }
 
+// Swell is the JSON struct for an interval's individual swell
 type Swell struct {
 	Height       float64 `json:"height"`
 	Period       int     `json:"period"`
