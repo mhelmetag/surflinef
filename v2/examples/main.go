@@ -87,13 +87,7 @@ func getTaxonomy() {
 		Type:     "taxonomy",
 	}
 
-	tqs, err := tq.TaxonomyQueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	t, err := c.GetTaxonomy(tqs)
+	t, err := c.GetTaxonomy(tq)
 	if err != nil {
 		fmt.Printf("Error fetching Taxonomy: %v\n", err)
 		return

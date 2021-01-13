@@ -6,7 +6,30 @@ import (
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/google/go-querystring/query"
 )
+
+func TestTaxonomyQueryString(t *testing.T) {
+	tq := TaxonomyQuery{
+		Type:     "taxonomy",
+		ID:       "58581a836630e24c44878fd4",
+		MaxDepth: 0,
+	}
+
+	vs, err := query.Values(tq)
+
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	qs := vs.Encode()
+
+	e := "id=58581a836630e24c44878fd4&maxDepth=0&type=taxonomy"
+	if qs != e {
+		t.Errorf("Got '%s', expected '%s'", qs, e)
+	}
+}
 
 func setupFixtureServer(fixtureFilename string) (*httptest.Server, error) {
 	d, err := ioutil.ReadFile(fixtureFilename)
@@ -39,12 +62,7 @@ func TestTaxonomy(t *testing.T) {
 		Type:     "taxonomy",
 	}
 
-	tqs, err := tq.TaxonomyQueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	tx, err := c.GetTaxonomy(tqs)
+	tx, err := c.GetTaxonomy(tq)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -78,12 +96,7 @@ func TestTaxonomyWithSpots(t *testing.T) {
 		Type:     "taxonomy",
 	}
 
-	tqs, err := tq.TaxonomyQueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	tx, err := c.GetTaxonomy(tqs)
+	tx, err := c.GetTaxonomy(tq)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -130,12 +143,7 @@ func TestTaxonomyWithSubregions(t *testing.T) {
 		Type:     "taxonomy",
 	}
 
-	tqs, err := tq.TaxonomyQueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	tx, err := c.GetTaxonomy(tqs)
+	tx, err := c.GetTaxonomy(tq)
 	if err != nil {
 		t.Fatal(err)
 	}

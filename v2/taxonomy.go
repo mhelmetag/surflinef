@@ -3,7 +3,17 @@ package surflinef
 import (
 	"encoding/json"
 	"net/url"
+
+	"github.com/google/go-querystring/query"
 )
+
+// TaxonomyQuery is used to build Forecast query params
+// False, nil or empty values are ignored
+type TaxonomyQuery struct {
+	ID       string `url:"id"`
+	MaxDepth int    `url:"maxDepth"`
+	Type     string `url:"type"`
+}
 
 // Taxonomy is the JSON struct for a daily condition
 type Taxonomy struct {
@@ -16,7 +26,15 @@ type Taxonomy struct {
 }
 
 // GetTaxonomy fetches a Taxonomy from the API
-func (c *Client) GetTaxonomy(qs string) (Taxonomy, error) {
+func (c *Client) GetTaxonomy(tq TaxonomyQuery) (Taxonomy, error) {
+	vs, err := query.Values(tq)
+
+	if err != nil {
+		return Taxonomy{}, err
+	}
+
+	qs := vs.Encode()
+
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)
 	if err != nil {
