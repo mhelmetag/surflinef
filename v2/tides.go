@@ -7,7 +7,8 @@ import (
 
 // TidesResponse is the root JSON struct for tide data
 type TidesResponse struct {
-	Data tidesData `json:"data"`
+	Associated Associated `json:"associated"`
+	Data       tidesData  `json:"data"`
 }
 
 type tidesData struct {
@@ -21,7 +22,7 @@ type Tide struct {
 	Height    float64 `json:"height"`
 }
 
-// GetTides fetches a TidesResponse from the API.
+// GetTides fetches a TidesResponse from the API
 func (c *Client) GetTides(qs string) (TidesResponse, error) {
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)

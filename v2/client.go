@@ -15,6 +15,9 @@ const TidesBaseURL = "https://services.surfline.com/kbyg/spots/forecasts/tides"
 // TaxonomyBaseURL is the base URL for the taxonomy service
 const TaxonomyBaseURL = "https://services.surfline.com/taxonomy"
 
+// WaveBaseURL is the base URL for the wave/swell service
+const WaveBaseURL = "https://services.surfline.com/kbyg/spots/forecasts/wave"
+
 // Client is the SurflineF HTTP Client.
 type Client struct {
 	BaseURL *url.URL
