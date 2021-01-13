@@ -100,7 +100,7 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 ### Taxonomy - Data Structure
 
-Taxonomy is a recursive data structure. Basically, a taxonomy record `contains` a list of other taxonomy records that lie within in (`liesIn`).
+Taxonomy is a slightly recursive data structure (seems like single depth even though you can query for more levels of depth). Basically, a taxonomy record `contains` a list of other taxonomy records that lie within in (`liesIn`).
 
 ```json
 {
@@ -117,5 +117,44 @@ Taxonomy is a recursive data structure. Basically, a taxonomy record `contains` 
   "associated": {},
   "in": [],
   "contains": []
+}
+```
+
+## Wave
+
+### Wave - Base URL
+
+`https://services.surfline.com/kbyg/spots/forecasts/wave`
+
+### Wave - Known Query Params
+
+- **spotId (string)** - Can get this from the taxonomy API
+- **days (integer)** - Greater than 1 and less than 6 (unless logged in)
+- **intervalHours** - The amount of data points per day (1 - 24; 6 would give 4 data points per day)
+- **maxHeights** - Not exactly sure what this is for... `false` is the norm, while `true` will remove most info and only leave the `surf.max` measurement
+
+### Wave - Example URL
+
+`https://services.surfline.com/kbyg/spots/forecasts/wave?spotId=5842041f4e65fad6a7708814&days=1&intervalHours=24&maxHeights=false`
+
+### Wave - Data Structure
+
+```json
+{
+  "timestamp": 1610438400,
+  "surf": {
+    "min": 2.23,
+    "max": 3.22,
+    "optimalScore": 0
+  },
+  "swells": [
+    {
+      "height": 1.8,
+      "period": 15,
+      "direction": 267.19,
+      "directionMin": 263.67,
+      "optimalScore": 1
+    }
+  ]
 }
 ```

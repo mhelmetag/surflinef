@@ -7,7 +7,8 @@ import (
 
 // TidesResponse is the root JSON struct for tide data
 type TidesResponse struct {
-	Data tidesData `json:"data"`
+	Associated Associated `json:"associated"`
+	Data       tidesData  `json:"data"`
 }
 
 type tidesData struct {

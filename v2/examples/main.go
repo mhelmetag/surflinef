@@ -11,6 +11,7 @@ func main() {
 	getConditions()
 	getTides()
 	getTaxonomy()
+	getWave()
 }
 
 func getConditions() {
@@ -99,4 +100,33 @@ func getTaxonomy() {
 	}
 
 	fmt.Printf("Taxonomy: %v\n", t)
+}
+
+func getWave() {
+	bu, err := url.Parse(surflinef.WaveBaseURL)
+	if err != nil {
+		fmt.Printf("Error parsing URL: %v\n", err)
+		return
+	}
+
+	c := surflinef.Client{BaseURL: bu}
+
+	q := surflinef.Query{
+		SpotID: "5842041f4e65fad6a7708814",
+		Days:   1,
+	}
+
+	qs, err := q.QueryString()
+	if err != nil {
+		fmt.Printf("Error building Query string: %v\n", err)
+		return
+	}
+
+	t, err := c.GetWave(qs)
+	if err != nil {
+		fmt.Printf("Error fetching Wave: %v\n", err)
+		return
+	}
+
+	fmt.Printf("Wave: %v\n", t)
 }
