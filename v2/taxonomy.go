@@ -7,8 +7,7 @@ import (
 	"github.com/google/go-querystring/query"
 )
 
-// TaxonomyQuery is used to build Forecast query params
-// False, nil or empty values are ignored
+// TaxonomyQuery is used to build Taxonomy query params
 type TaxonomyQuery struct {
 	ID       string `url:"id"`
 	MaxDepth int    `url:"maxDepth"`

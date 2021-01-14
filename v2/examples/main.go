@@ -105,18 +105,12 @@ func getWave() {
 
 	c := surflinef.Client{BaseURL: bu}
 
-	q := surflinef.Query{
+	wq := surflinef.WaveQuery{
 		SpotID: "5842041f4e65fad6a7708814",
 		Days:   1,
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	t, err := c.GetWave(qs)
+	t, err := c.GetWave(wq)
 	if err != nil {
 		fmt.Printf("Error fetching Wave: %v\n", err)
 		return
