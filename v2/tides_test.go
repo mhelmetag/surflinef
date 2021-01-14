@@ -27,7 +27,7 @@ func TestTidesResponse(t *testing.T) {
 	}
 	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
 
-	tq := TideQuery{
+	tq := TidesQuery{
 		SpotID: "5842041f4e65fad6a7708814",
 		Days:   6,
 	}

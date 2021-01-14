@@ -17,8 +17,18 @@ type WaveQuery struct {
 
 // WaveResponse is the root JSON struct for wave data
 type WaveResponse struct {
-	Associated Associated `json:"associated"`
-	Data       waveData   `json:"data"`
+	Associated WaveAssociated `json:"associated"`
+	Data       waveData       `json:"data"`
+}
+
+// WaveAssociated is associated info to go along with the Wave API response
+// It includes units of measurement, utc offset for timezones, related locations, etc
+type WaveAssociated struct {
+	Units            Units    `json:"units"`
+	UTCOffset        int32    `json:"utcOffset"`
+	Location         Location `json:"location"`
+	ForecastLocation Location `json:"forecastLocation"`
+	OffshoreLocation Location `json:"offshoreLocation"`
 }
 
 type waveData struct {

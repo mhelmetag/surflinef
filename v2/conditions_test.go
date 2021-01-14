@@ -27,17 +27,12 @@ func TestConditionsResponse(t *testing.T) {
 	}
 	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
 
-	q := Query{
+	cq := ConditionsQuery{
 		SubregionID: "58581a836630e24c44878fd4",
 		Days:        6,
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	cr, err := c.GetConditions(qs)
+	cr, err := c.GetConditions(cq)
 	if err != nil {
 		t.Fatal(err)
 	}
