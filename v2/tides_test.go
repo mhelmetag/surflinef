@@ -27,17 +27,12 @@ func TestTidesResponse(t *testing.T) {
 	}
 	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
 
-	q := Query{
+	tq := TideQuery{
 		SpotID: "5842041f4e65fad6a7708814",
 		Days:   6,
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	tr, err := c.GetTides(qs)
+	tr, err := c.GetTides(tq)
 	if err != nil {
 		t.Fatal(err)
 	}

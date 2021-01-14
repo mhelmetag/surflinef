@@ -3,7 +3,15 @@ package surflinef
 import (
 	"encoding/json"
 	"net/url"
+
+	"github.com/google/go-querystring/query"
 )
+
+// TideQuery is used to build Tide query params
+type TideQuery struct {
+	SpotID string `url:"spotId"`
+	Days   int    `url:"days"`
+}
 
 // TidesResponse is the root JSON struct for tide data
 type TidesResponse struct {
@@ -23,7 +31,15 @@ type Tide struct {
 }
 
 // GetTides fetches a TidesResponse from the API
-func (c *Client) GetTides(qs string) (TidesResponse, error) {
+func (c *Client) GetTides(tq TideQuery) (TidesResponse, error) {
+	vs, err := query.Values(tq)
+
+	if err != nil {
+		return TidesResponse{}, err
+	}
+
+	qs := vs.Encode()
+
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)
 	if err != nil {

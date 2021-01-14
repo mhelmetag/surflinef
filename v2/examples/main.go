@@ -52,18 +52,12 @@ func getTides() {
 
 	c := surflinef.Client{BaseURL: bu}
 
-	q := surflinef.Query{
+	tq := surflinef.TideQuery{
 		Days:   3,
 		SpotID: "5842041f4e65fad6a7708814", // Rincon, CA
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	ts, err := c.GetTides(qs)
+	ts, err := c.GetTides(tq)
 	if err != nil {
 		fmt.Printf("Error fetching Tides: %v\n", err)
 		return
