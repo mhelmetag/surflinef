@@ -3,12 +3,32 @@ package surflinef
 import (
 	"encoding/json"
 	"net/url"
+
+	"github.com/google/go-querystring/query"
 )
+
+// WaveQuery is used to build Wave query params
+type WaveQuery struct {
+	SpotID        string `url:"spotId"`
+	Days          int    `url:"days"`
+	IntervalHours int    `url:"intervalHours"`
+	MaxHeights    bool   `url:"maxHeights"`
+}
 
 // WaveResponse is the root JSON struct for wave data
 type WaveResponse struct {
-	Associated Associated `json:"associated"`
-	Data       waveData   `json:"data"`
+	Associated WaveAssociated `json:"associated"`
+	Data       waveData       `json:"data"`
+}
+
+// WaveAssociated is associated info to go along with the Wave API response
+// It includes units of measurement, utc offset for timezones, related locations, etc
+type WaveAssociated struct {
+	Units            Units    `json:"units"`
+	UTCOffset        int32    `json:"utcOffset"`
+	Location         Location `json:"location"`
+	ForecastLocation Location `json:"forecastLocation"`
+	OffshoreLocation Location `json:"offshoreLocation"`
 }
 
 type waveData struct {
@@ -40,7 +60,15 @@ type Swell struct {
 }
 
 // GetWave fetches a WaveResponse from the API
-func (c *Client) GetWave(qs string) (WaveResponse, error) {
+func (c *Client) GetWave(wq WaveQuery) (WaveResponse, error) {
+	vs, err := query.Values(wq)
+
+	if err != nil {
+		return WaveResponse{}, err
+	}
+
+	qs := vs.Encode()
+
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)
 	if err != nil {

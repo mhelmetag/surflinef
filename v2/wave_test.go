@@ -27,17 +27,12 @@ func TestWaveResponse(t *testing.T) {
 	}
 	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
 
-	q := Query{
+	wq := WaveQuery{
 		SpotID: "5842041f4e65fad6a7708814",
 		Days:   3,
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		t.Fatal(err)
-	}
-
-	cr, err := c.GetWave(qs)
+	cr, err := c.GetWave(wq)
 	if err != nil {
 		t.Fatal(err)
 	}

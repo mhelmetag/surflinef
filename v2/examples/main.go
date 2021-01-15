@@ -23,18 +23,12 @@ func getConditions() {
 
 	c := surflinef.Client{BaseURL: bu}
 
-	q := surflinef.Query{
+	cq := surflinef.ConditionsQuery{
 		Days:        3,
 		SubregionID: "58581a836630e24c44878fd4", // Santa Barbara, CA
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	cs, err := c.GetConditions(qs)
+	cs, err := c.GetConditions(cq)
 	if err != nil {
 		fmt.Printf("Error fetching Conditions: %v\n", err)
 		return
@@ -52,18 +46,12 @@ func getTides() {
 
 	c := surflinef.Client{BaseURL: bu}
 
-	q := surflinef.Query{
+	tq := surflinef.TidesQuery{
 		Days:   3,
 		SpotID: "5842041f4e65fad6a7708814", // Rincon, CA
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	ts, err := c.GetTides(qs)
+	ts, err := c.GetTides(tq)
 	if err != nil {
 		fmt.Printf("Error fetching Tides: %v\n", err)
 		return
@@ -87,13 +75,7 @@ func getTaxonomy() {
 		Type:     "taxonomy",
 	}
 
-	tqs, err := tq.TaxonomyQueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	t, err := c.GetTaxonomy(tqs)
+	t, err := c.GetTaxonomy(tq)
 	if err != nil {
 		fmt.Printf("Error fetching Taxonomy: %v\n", err)
 		return
@@ -111,18 +93,12 @@ func getWave() {
 
 	c := surflinef.Client{BaseURL: bu}
 
-	q := surflinef.Query{
+	wq := surflinef.WaveQuery{
 		SpotID: "5842041f4e65fad6a7708814",
 		Days:   1,
 	}
 
-	qs, err := q.QueryString()
-	if err != nil {
-		fmt.Printf("Error building Query string: %v\n", err)
-		return
-	}
-
-	t, err := c.GetWave(qs)
+	t, err := c.GetWave(wq)
 	if err != nil {
 		fmt.Printf("Error fetching Wave: %v\n", err)
 		return

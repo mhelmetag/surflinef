@@ -130,8 +130,8 @@ Taxonomy is a slightly recursive data structure (seems like single depth even th
 
 - **spotId (string)** - Can get this from the taxonomy API
 - **days (integer)** - Greater than 1 and less than 6 (unless logged in)
-- **intervalHours** - The amount of data points per day (1 - 24; 6 would give 4 data points per day)
-- **maxHeights** - Not exactly sure what this is for... `false` is the norm, while `true` will remove most info and only leave the `surf.max` measurement
+- **intervalHours (integer)** - The amount of data points per day (1 - 24; 6 would give 4 data points per day)
+- **maxHeights (boolean)** - Not exactly sure what this is for... `false` is the norm, while `true` will remove most info and only leave the `surf.max` measurement
 
 ### Wave - Example URL
 

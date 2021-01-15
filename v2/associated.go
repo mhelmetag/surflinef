@@ -1,16 +1,5 @@
 package surflinef
 
-// Associated is associated info to go along with the API response
-// It usually includes units of measurement, utc offset for timezones, etc
-type Associated struct {
-	Units            Units    `json:"units"`
-	UTCOffset        int32    `json:"utcOffset"`
-	Location         Location `json:"location"`
-	ForecastLocation Location `json:"forecastLocation"`
-	OffshoreLocation Location `json:"offshoreLocation"`
-	TideLocation     Location `json:"tideLocation"`
-}
-
 // Units is a collection of units for measurements (heights, speeds, etc)
 type Units struct {
 	Temperature string `json:"temperature"`

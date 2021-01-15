@@ -3,12 +3,27 @@ package surflinef
 import (
 	"encoding/json"
 	"net/url"
+
+	"github.com/google/go-querystring/query"
 )
+
+// ConditionsQuery is used to build Conditions query params
+type ConditionsQuery struct {
+	SubregionID string `json:"subregionId"`
+	Days        int    `json:"days"`
+}
 
 // ConditionsResponse is the root JSON struct for condition data
 type ConditionsResponse struct {
-	Associated Associated    `json:"associated"`
-	Data       conditonsData `json:"data"`
+	Associated ConditionsAssociated `json:"associated"`
+	Data       conditonsData        `json:"data"`
+}
+
+// ConditionsAssociated is associated info to go along with the Conditions API response
+// It includes units of measurement and utc offset for timezones
+type ConditionsAssociated struct {
+	Units     Units `json:"units"`
+	UTCOffset int32 `json:"utcOffset"`
 }
 
 type conditonsData struct {
@@ -40,7 +55,15 @@ type Report struct {
 }
 
 // GetConditions fetches a ConditionsResponse from the API
-func (c *Client) GetConditions(qs string) (ConditionsResponse, error) {
+func (c *Client) GetConditions(cq ConditionsQuery) (ConditionsResponse, error) {
+	vs, err := query.Values(cq)
+
+	if err != nil {
+		return ConditionsResponse{}, err
+	}
+
+	qs := vs.Encode()
+
 	s := c.FullURL(qs)
 	u, err := url.Parse(s)
 	if err != nil {
