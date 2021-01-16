@@ -9,8 +9,8 @@ import (
 
 // ConditionsQuery is used to build Conditions query params
 type ConditionsQuery struct {
-	SubregionID string `json:"subregionId"`
-	Days        int    `json:"days"`
+	SubregionID string `url:"subregionId"`
+	Days        int    `url:"days"`
 }
 
 // ConditionsResponse is the root JSON struct for condition data

@@ -94,8 +94,10 @@ func getWave() {
 	c := surflinef.Client{BaseURL: bu}
 
 	wq := surflinef.WaveQuery{
-		SpotID: "5842041f4e65fad6a7708814",
-		Days:   1,
+		SpotID:        "5842041f4e65fad6a7708814",
+		Days:          1,
+		IntervalHours: 6,
+		MaxHeights:    false,
 	}
 
 	t, err := c.GetWave(wq)
