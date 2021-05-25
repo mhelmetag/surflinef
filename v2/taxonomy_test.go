@@ -1,9 +1,6 @@
 package surflinef
 
 import (
-	"io/ioutil"
-	"net/http"
-	"net/http/httptest"
 	"net/url"
 	"testing"
 
@@ -31,30 +28,19 @@ func TestTaxonomyQueryString(t *testing.T) {
 	}
 }
 
-func setupFixtureServer(fixtureFilename string) (*httptest.Server, error) {
-	d, err := ioutil.ReadFile(fixtureFilename)
-	if err != nil {
-		return nil, err
-	}
-
-	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.WriteHeader(http.StatusOK)
-		w.Header().Set("Content-Type", "application/json")
-		w.Write(d)
-	}))
-
-	return ts, nil
-}
-
 func TestTaxonomy(t *testing.T) {
 	ts, err := setupFixtureServer("fixtures/taxonomy.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
 	defer ts.Close()
 
 	bu, err := url.Parse(ts.URL)
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+	c := Client{BaseURL: bu}
 
 	tq := TaxonomyQuery{
 		ID:       "58581a836630e24c44878fd4",
@@ -82,13 +68,17 @@ func TestTaxonomy(t *testing.T) {
 
 func TestTaxonomyWithSpots(t *testing.T) {
 	ts, err := setupFixtureServer("fixtures/taxonomy-with-spots.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
 	defer ts.Close()
 
 	bu, err := url.Parse(ts.URL)
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+	c := Client{BaseURL: bu}
 
 	tq := TaxonomyQuery{
 		ID:       "58f7ed58dadb30820bb38f8b",
@@ -129,13 +119,17 @@ func TestTaxonomyWithSpots(t *testing.T) {
 
 func TestTaxonomyWithSubregions(t *testing.T) {
 	ts, err := setupFixtureServer("fixtures/taxonomy-with-subregions.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+
 	defer ts.Close()
 
 	bu, err := url.Parse(ts.URL)
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+	c := Client{BaseURL: bu}
 
 	tq := TaxonomyQuery{
 		ID:       "58f7ed51dadb30820bb387a6",

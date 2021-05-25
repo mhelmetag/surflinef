@@ -1,31 +1,23 @@
 package surflinef
 
 import (
-	"io/ioutil"
-	"net/http"
-	"net/http/httptest"
 	"net/url"
 	"testing"
 )
 
 func TestTidesResponse(t *testing.T) {
-	d, err := ioutil.ReadFile("fixtures/tides.json")
+	s, err := setupFixtureServer("fixtures/tides.json")
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	s := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.WriteHeader(http.StatusOK)
-		w.Header().Set("Content-Type", "application/json")
-		w.Write(d)
-	}))
 	defer s.Close()
 
 	bu, err := url.Parse(s.URL)
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+	c := Client{BaseURL: bu}
 
 	tq := TidesQuery{
 		SpotID: "5842041f4e65fad6a7708814",

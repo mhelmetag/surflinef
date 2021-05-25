@@ -21,8 +21,6 @@ const WaveBaseURL = "https://services.surfline.com/kbyg/spots/forecasts/wave"
 // Client is the SurflineF HTTP Client.
 type Client struct {
 	BaseURL *url.URL
-
-	httpClient *http.Client
 }
 
 // FullURL formats the query string and Client BaseUrl
