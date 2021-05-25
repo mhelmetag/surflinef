@@ -1,31 +1,23 @@
 package surflinef
 
 import (
-	"io/ioutil"
-	"net/http"
-	"net/http/httptest"
 	"net/url"
 	"testing"
 )
 
 func TestWaveResponse(t *testing.T) {
-	d, err := ioutil.ReadFile("fixtures/wave.json")
+	ts, err := setupFixtureServer("fixtures/wave.json")
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		w.WriteHeader(http.StatusOK)
-		w.Header().Set("Content-Type", "application/json")
-		w.Write(d)
-	}))
 	defer ts.Close()
 
 	bu, err := url.Parse(ts.URL)
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := Client{BaseURL: bu, httpClient: http.DefaultClient}
+	c := Client{BaseURL: bu}
 
 	wq := WaveQuery{
 		SpotID: "5842041f4e65fad6a7708814",
