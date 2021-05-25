@@ -10,7 +10,7 @@ Make sure to use versions 2.x.x or greater in your `go.mod` file.
 
 ## Usage
 
-The full example for fetching a Forecast (and other info) can be found in `examples/main.go` and can be run with `go run examples/main.go`.
+The full example for fetching a Forecast (and other info) can be found in `examples/all_resources/main.go` and can be run with `go run examples/all_resources/main.go`.
 
 ## Conditions
 
@@ -92,7 +92,7 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 - **type (string)** - Can be a few things... taxonomy is one but not sure about others
 - **id (string)** - ID of the taxonomy record (continent, country, region or area)
-- **maxDepth (integer)** - Depth of the taxonomy search. Use 0 for searches for continents, country, regions and areas. Use 1 for area to find contained spots.
+- **maxDepth (integer)** - Depth of the taxonomy search. Use 0 for searches for continents, country, regions and areas. Use 1 for area to find contained spots
 
 ### Taxonomy - Example URL
 
@@ -156,5 +156,57 @@ Taxonomy is a slightly recursive data structure (seems like single depth even th
       "optimalScore": 1
     }
   ]
+}
+```
+
+## Login
+
+### Login - Base URL
+
+`https://services.surfline.com/trusted/token`
+
+### Login - Known Query Params
+
+- **isShortLived (boolean)** - Not really sure... when the app logs in, it uses `false`
+
+### Login - Example URL
+
+`https://services.surfline.com/trusted/token?isShortLived=false`
+
+### Login - Known Payload
+
+The `authorizationString` is static. It's the base64 encoded values of the client ID and secret for the Surfline app separated by a colon (`:`). You need to supply your own `username` and `password` values.
+
+```json
+{
+  "authorizationString": "Basic NWM1OWU3YzNmMGI2Y2IxYWQwMmJhZjY2OnNrX1FxWEpkbjZOeTVzTVJ1MjdBbWcz",
+  "device_id": "",
+  "device_type": "",
+  "forced": true,
+  "grant_type": "password",
+  "password": "foo",
+  "username": "bar"
+}
+```
+
+### Login - Data Structure
+
+Success (tokens modified):
+
+```json
+{
+  "access_token": "43foodae4ca3d74b59dd96fd8a82a135f914d1b2",
+  "refresh_token": "c8667107c8fd7957d50865093e9d82925bar33a3",
+  "expires_in": 3592000,
+  "token_type": "Bearer"
+}
+```
+
+Error (Invalid login credentials):
+
+```json
+{
+  "error": "invalid_request",
+  "error_description": "Invalid email and password combination"
 }
 ```
