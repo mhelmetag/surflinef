@@ -9,8 +9,9 @@ import (
 
 // TidesQuery is used to build Tides query params
 type TidesQuery struct {
-	SpotID string `url:"spotId"`
-	Days   int    `url:"days"`
+	SpotID      string `url:"spotId"`
+	Days        int    `url:"days"`
+	AccessToken string `url:"accesstoken,omitempty"`
 }
 
 // TidesResponse is the root JSON struct for tide data

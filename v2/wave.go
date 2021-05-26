@@ -13,6 +13,7 @@ type WaveQuery struct {
 	Days          int    `url:"days"`
 	IntervalHours int    `url:"intervalHours"`
 	MaxHeights    bool   `url:"maxHeights"`
+	AccessToken   string `url:"accesstoken,omitempty"`
 }
 
 // WaveResponse is the root JSON struct for wave data

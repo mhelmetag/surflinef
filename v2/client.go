@@ -18,6 +18,8 @@ const TaxonomyBaseURL = "https://services.surfline.com/taxonomy"
 // WaveBaseURL is the base URL for the wave/swell service
 const WaveBaseURL = "https://services.surfline.com/kbyg/spots/forecasts/wave"
 
+const LoginBaseURL = "https://services.surfline.com/trusted/token"
+
 // Client is the SurflineF HTTP Client.
 type Client struct {
 	BaseURL *url.URL

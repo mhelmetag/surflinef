@@ -11,6 +11,7 @@ import (
 type ConditionsQuery struct {
 	SubregionID string `url:"subregionId"`
 	Days        int    `url:"days"`
+	AccessToken string `url:"accesstoken,omitempty"`
 }
 
 // ConditionsResponse is the root JSON struct for condition data
