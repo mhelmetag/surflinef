@@ -22,6 +22,7 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 - **subregionId (string)** - Can get this from the taxonomy API
 - **days (integer)** - Greater than 1 and less than 6 (unless logged in)
+- **accessToken (string)** - Allows gathering data for more than 6 days out
 
 ### Conditions - Example URL
 
@@ -67,6 +68,7 @@ The full example for fetching a Forecast (and other info) can be found in `examp
 
 - **spotId (string)** - Can get this from the taxonomy API
 - **days (integer)** - Greater than 1 and less than 6 (unless logged in)
+- **accessToken (string)** - Allows gathering data for more than 6 days out
 
 ### Tides - Example URL
 
@@ -132,6 +134,7 @@ Taxonomy is a slightly recursive data structure (seems like single depth even th
 - **days (integer)** - Greater than 1 and less than 6 (unless logged in)
 - **intervalHours (integer)** - The amount of data points per day (1 - 24; 6 would give 4 data points per day)
 - **maxHeights (boolean)** - Not exactly sure what this is for... `false` is the norm, while `true` will remove most info and only leave the `surf.max` measurement
+- **accessToken (string)** - Allows gathering data for more than 6 days out
 
 ### Wave - Example URL
 
