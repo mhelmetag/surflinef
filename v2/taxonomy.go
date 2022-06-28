@@ -17,10 +17,11 @@ type TaxonomyQuery struct {
 // Taxonomy is the JSON struct for a daily condition
 type Taxonomy struct {
 	ID        string     `json:"_id"`
-	Spot      string     `json:"spot"`
-	Subregion string     `json:"subregion"`
-	Type      string     `json:"type"`
+	Spot      string     `json:"spot"`      // different kind of ID for spots
+	Subregion string     `json:"subregion"` // different kind of ID for subregions
+	Type      string     `json:"type"`      // ["geoname", "spot", "subregion"]
 	Name      string     `json:"name"`
+	HasSpots  bool       `json:"hasSpots"`
 	Contains  []Taxonomy `json:"contains"`
 }
 
